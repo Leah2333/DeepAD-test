@@ -1,0 +1,53 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+	<poi id="o" color="1,1,1" x="-170" y="402" width="40" height="40" imgFile="home.png" />
+	<poi id="t0" color="40,160,0" x="53.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1" color="40,160,0" x="93.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t2" color="40,160,0" x="133.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t3" color="40,160,0" x="173.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t113" color="40,160,0" x="173.12" y="247.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t114" color="40,160,0" x="173.12" y="287.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t115" color="40,160,0" x="173.12" y="327.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t116" color="40,160,0" x="173.12" y="367.20" width="15" height="15" imgFile="tree.png" />
+	
+	
+	<poi id="t213" color="40,160,0" x="213.12" y="247.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t214" color="40,160,0" x="213.12" y="287.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t215" color="40,160,0" x="213.12" y="327.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t216" color="40,160,0" x="213.12" y="367.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t4" color="40,160,0" x="213.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t5" color="40,160,0" x="253.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t6" color="1,1,1" x="293.12" y="227.20" width="40" height="40" imgFile="40.png" />
+	<poi id="t7" color="40,160,0" x="328.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t8" color="40,160,0" x="363.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t313" color="40,160,0" x="363.12" y="247.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t314" color="40,160,0" x="363.12" y="287.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t315" color="40,160,0" x="363.12" y="327.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t316" color="40,160,0" x="363.12" y="367.20" width="15" height="15" imgFile="tree.png" />
+	
+	<poi id="t413" color="40,160,0" x="443.12" y="247.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t414" color="40,160,0" x="443.12" y="287.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t415" color="40,160,0" x="443.12" y="327.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t416" color="40,160,0" x="443.12" y="367.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t9" color="40,160,0" x="443.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t10" color="40,160,0" x="483.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t11" color="40,160,0" x="523.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t12" color="40,160,0" x="563.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+
+
+	<poi id="t20" color="40,160,0" x="53.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t21" color="40,160,0" x="93.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t22" color="40,160,0" x="133.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t23" color="40,160,0" x="173.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t24" color="40,160,0" x="213.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t25" color="40,160,0" x="253.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t26" color="40,160,0" x="293.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t27" color="40,160,0" x="328.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t28" color="40,160,0" x="363.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t29" color="40,160,0" x="443.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t30" color="40,160,0" x="483.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t31" color="40,160,0" x="523.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t32" color="40,160,0" x="563.12" y="17.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="d" color="1,1,1" x="747" y="12" width="40" height="40" imgFile="work.png" />
+
+</additional>

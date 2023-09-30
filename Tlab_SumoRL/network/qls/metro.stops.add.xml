@@ -1,0 +1,114 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="1036717600" name="shanghailu" lane="158598217_0" startPos="970.01" endPos="1071.41" friendlyPos="true" lines="2">
+        <access lane="-146496699#3_0" pos="0.00" length="28.67" friendlyPos="1"/>
+        <access lane="-61862480#0_0" pos="153.33" length="22.15" friendlyPos="1"/>
+        <access lane="-74658359#0_0" pos="281.17" length="55.86" friendlyPos="1"/>
+        <access lane="146496699#3_0" pos="190.67" length="29.87" friendlyPos="1"/>
+        <access lane="61862480#0_0" pos="0.00" length="27.33" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-1036717600" name="shanghailu" lane="-158598217_0" startPos="0.00" endPos="100.00" friendlyPos="true">
+        <access lane="-146496699#3_0" pos="0.00" length="28.67" friendlyPos="1"/>
+        <access lane="-61862480#0_0" pos="153.33" length="22.15" friendlyPos="1"/>
+        <access lane="-74658359#0_0" pos="281.17" length="55.86" friendlyPos="1"/>
+        <access lane="146496699#3_0" pos="190.67" length="29.87" friendlyPos="1"/>
+        <access lane="61862480#0_0" pos="0.00" length="27.33" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1036717601" name="hanzhongmen" lane="158598217_0" startPos="109.87" endPos="309.87" friendlyPos="true" lines="2">
+        <!--<access lane="-423517785_0" pos="0.00" length="234.35" friendlyPos="1"/>-->
+        <!--<access lane="-74658359#5_0" pos="113.91" length="16.22" friendlyPos="1"/>-->
+        <access lane="52458401#0_0" pos="0.00" length="183.00" friendlyPos="1"/>
+        <access lane="52458403#1_0" pos="306.31" length="226.54" friendlyPos="1"/>
+        <access lane="74658359#5_0" pos="161.56" length="6.62" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-1036717601" name="hanzhongmen" lane="-158598217_0" startPos="722.91" endPos="922.91" friendlyPos="true">
+        <!--<access lane="-423517785_0" pos="0.00" length="234.35" friendlyPos="1"/>-->
+        <!--<access lane="-74658359#5_0" pos="113.91" length="16.22" friendlyPos="1"/>-->
+        <access lane="52458401#0_0" pos="0.00" length="183.00" friendlyPos="1"/>
+        <access lane="52458403#1_0" pos="306.31" length="226.54" friendlyPos="1"/>
+        <access lane="74658359#5_0" pos="161.56" length="6.62" friendlyPos="1"/>
+    </busStop>
+    <busStop id="2615764104" name="xinjiekou" lane="432528041_0" startPos="0.00" endPos="58.74" friendlyPos="true" lines="2">
+        <access lane="432528029_0" pos="0.00" length="29.33" friendlyPos="1"/>
+        <access lane="432530595#0_0" pos="8.30" length="19.18" friendlyPos="1"/>
+        <access lane="432530595#1_0" pos="0.00" length="26.49" friendlyPos="1"/>
+        <access lane="432530595#3_0" pos="3.28" length="26.48" friendlyPos="1"/>
+        <access lane="432530595#4_0" pos="0.07" length="21.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-2615764104" name="xinjiekou" lane="-432528041_0" startPos="0.00" endPos="58.74" friendlyPos="true">
+        <access lane="432528029_0" pos="0.00" length="29.33" friendlyPos="1"/>
+        <access lane="432530595#0_0" pos="8.30" length="19.18" friendlyPos="1"/>
+        <access lane="432530595#1_0" pos="0.00" length="26.49" friendlyPos="1"/>
+        <access lane="432530595#3_0" pos="3.28" length="26.48" friendlyPos="1"/>
+        <access lane="432530595#4_0" pos="0.07" length="21.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5451782627" name="gulou" lane="255863296_0" startPos="1492.22" endPos="1592.22" friendlyPos="true" lines="1">
+        <access lane="61816161#0_0" pos="42.52" length="71.75" friendlyPos="1"/>
+        <access lane="61816161#1_0" pos="30.22" length="53.62" friendlyPos="1"/>
+        <access lane="61816161#2_0" pos="44.58" length="64.24" friendlyPos="1"/>
+        <access lane="61816161#4_0" pos="0.00" length="86.78" friendlyPos="1"/>
+        <access lane="89562525#0_0" pos="0.00" length="80.07" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-5451782627" name="gulou" lane="-255863296_0" startPos="0.00" endPos="100.00" friendlyPos="true">
+        <access lane="61816161#0_0" pos="42.52" length="71.75" friendlyPos="1"/>
+        <access lane="61816161#1_0" pos="30.22" length="53.62" friendlyPos="1"/>
+        <access lane="61816161#2_0" pos="44.58" length="64.24" friendlyPos="1"/>
+        <access lane="61816161#4_0" pos="0.00" length="86.78" friendlyPos="1"/>
+        <access lane="89562525#0_0" pos="0.00" length="80.07" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1038064762" name="zhujianglu" lane="255863296_0" startPos="577.09" endPos="777.09" friendlyPos="true" lines="1">
+        <access lane="-161318989#7_0" pos="101.95" length="3.62" friendlyPos="1"/>
+        <access lane="161318989#7_0" pos="3.43" length="18.02" friendlyPos="1"/>
+        <access lane="191934365#1_0" pos="0.00" length="13.61" friendlyPos="1"/>
+        <access lane="191934365#2_0" pos="0.00" length="13.38" friendlyPos="1"/>
+        <access lane="779252391#0_0" pos="5.58" length="15.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-1038064762" name="zhujianglu" lane="-255863296_0" startPos="815.13" endPos="1015.13" friendlyPos="true">
+        <access lane="-161318989#7_0" pos="101.95" length="3.62" friendlyPos="1"/>
+        <access lane="161318989#7_0" pos="3.43" length="18.02" friendlyPos="1"/>
+        <access lane="191934365#1_0" pos="0.00" length="13.61" friendlyPos="1"/>
+        <access lane="191934365#2_0" pos="0.00" length="13.38" friendlyPos="1"/>
+        <access lane="779252391#0_0" pos="5.58" length="15.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-1541912264" name="gulou" lane="-466139720_0" startPos="2612.65" endPos="2783.10" friendlyPos="true">
+        <access lane="61816161#0_0" pos="42.52" length="62.09" friendlyPos="1"/>
+        <access lane="61816161#1_0" pos="23.14" length="49.99" friendlyPos="1"/>
+        <access lane="61816161#2_0" pos="51.74" length="67.94" friendlyPos="1"/>
+        <access lane="61816161#4_0" pos="0.00" length="81.82" friendlyPos="1"/>
+        <access lane="89562525#0_0" pos="0.00" length="79.71" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1541912264" name="gulou" lane="466139720_0" startPos="0.00" endPos="170.45" friendlyPos="true">
+        <access lane="61816161#0_0" pos="42.52" length="62.09" friendlyPos="1"/>
+        <access lane="61816161#1_0" pos="23.14" length="49.99" friendlyPos="1"/>
+        <access lane="61816161#2_0" pos="51.74" length="67.94" friendlyPos="1"/>
+        <access lane="61816161#4_0" pos="0.00" length="81.82" friendlyPos="1"/>
+        <access lane="89562525#0_0" pos="0.00" length="79.71" friendlyPos="1"/>
+    </busStop>
+    <busStop id="4610107650" name="yunnanlu" lane="466139720_0" startPos="895.71" endPos="1095.71" friendlyPos="true">
+        <access lane="-375025776#2_0" pos="0.00" length="30.55" friendlyPos="1"/>
+        <access lane="-422921365#0_0" pos="212.43" length="10.28" friendlyPos="1"/>
+        <access lane="375025776#2_0" pos="142.47" length="39.01" friendlyPos="1"/>
+        <access lane="422921365#0_0" pos="10.83" length="0.68" friendlyPos="1"/>
+        <access lane="779254398#3_0" pos="183.66" length="42.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-881785732" name="xinjiekou" lane="-159864075_0" startPos="247.44" endPos="347.44" friendlyPos="true">
+        <access lane="-155882945_0" pos="12.00" length="31.19" friendlyPos="1"/>
+        <access lane="155882945_0" pos="0.00" length="31.46" friendlyPos="1"/>
+        <access lane="155882973_0" pos="0.00" length="30.49" friendlyPos="1"/>
+        <access lane="155882991_0" pos="51.78" length="27.36" friendlyPos="1"/>
+        <!--<access lane="792235763#0_0" pos="116.38" length="30.79" friendlyPos="1"/>-->
+    </busStop>
+    <busStop id="881785732" name="xinjiekou" lane="159864075_0" startPos="0.00" endPos="100.00" friendlyPos="true" lines="1">
+        <access lane="-155882945_0" pos="12.00" length="31.19" friendlyPos="1"/>
+        <access lane="155882945_0" pos="0.00" length="31.46" friendlyPos="1"/>
+        <access lane="155882973_0" pos="0.00" length="30.49" friendlyPos="1"/>
+        <access lane="155882991_0" pos="51.78" length="27.36" friendlyPos="1"/>
+        <!--<access lane="792235763#0_0" pos="116.38" length="30.79" friendlyPos="1"/>-->
+    </busStop>
+    <busStop id="-4610107650" name="yunnanlu" lane="-466139720_0" startPos="1687.39" endPos="1887.39" friendlyPos="true">
+        <access lane="-375025776#2_0" pos="0.00" length="30.55" friendlyPos="1"/>
+        <access lane="-422921365#0_0" pos="212.43" length="10.28" friendlyPos="1"/>
+        <access lane="375025776#2_0" pos="142.47" length="39.01" friendlyPos="1"/>
+        <access lane="422921365#0_0" pos="10.83" length="0.68" friendlyPos="1"/>
+        <access lane="779254398#3_0" pos="183.66" length="42.30" friendlyPos="1"/>
+    </busStop>
+</additional>

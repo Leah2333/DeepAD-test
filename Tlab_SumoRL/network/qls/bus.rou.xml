@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-08-15 16:23:12.605660 by ptlines2flows.py v1_6_0+0003-190709904e
+  options: -n osm.net.xml -s bus.stops.add.xml -l busLines.xml -o bus.rou.xml -p 600 -b 0 -e 86400 <doubleminus>use-osm-routes <doubleminus>min-stops 0
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="bus_bus23_1:0" edges="256397629 256397629.59 256397629.271 256397629.390 256397629.607 256397629.727 -253448250.14" >
+    </route>
+    <route id="bus_bus91_1:0" edges="190247403#0 190247403#1 190247403#2 190247403#3 190247403#4 190247403#5 190247403#6 190247403#7 190247403#8 190247403#9 190247403#10 190247403#11 166261566#1 166261566#2 166261566#3 166261566#3.228 166261566#4 166261566#5 166261566#6 166261566#6.186 166261566#7 166261566#8 166261566#9 779252392 779252392.84 -253448250.14" >
+    </route>
+    <route id="bus_busY5_0:0" edges="423517785 -74658359#5.7 -74658359#5.179 -74658359#4 -74658359#3 -74658359#2 -74658359#1 -74658359#0 -146496699#3 -146496699#2 -146496699#1 -146496699#0 -155883037#3 -155883037#1 -155883037#0 -159796724 432530595#2 432530595#3 422848103" >
+    </route>
+    <route id="bus_bus68_0:0" edges="61862485 61862485.55 524568465 524568471#0 524568471#1 524568471#2 524568471#2.195 --61862486#0 61862486#1 61862486#1.61 61862488#0 61862488#1 74658359#2 74658359#2.44 74658359#3 74658359#4 74658359#5 74658359#5.108 -423517785.5" >
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="204.0"/> <!-- None -->
+    </route>
+    <route id="bus_bus18_0:0" edges="155883037#1 155883037#3 146496699#0 146496699#1 146496699#2 146496699#3 146496699#3.92 74658359#0 74658359#0.102 74658359#1 74658359#2 74658359#2.44 74658359#3 74658359#4 74658359#5 74658359#5.108 -423517785.5" >
+        <stop busStop="busStop_146496699#1_0_40" duration="30.00" until="66.0"/> <!-- xinjiekouxi_north -->
+        <stop busStop="busStop_74658359#0_0_10" duration="30.00" until="144.0"/> <!-- hanzhonglumochoulu_north -->
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="245.0"/> <!-- None -->
+    </route>
+    <route id="bus_bustour3_0:0" edges="256397629 -74658359#5.7 -74658359#5.179 -74658359#4 -74658359#3 -74658359#2 -74658359#1 -74658359#0 -146496699#3 -146496699#2 -146496699#1 -146496699#0 -155883037#3 -155883037#1 -155883037#0 155882991" >
+        <stop busStop="busStop_-74658359#5.7_0_28" duration="30.00" until="54.0"/> <!-- hanzhongluhanzhongmen -->
+        <stop busStop="busStop_-146496699#1_0_39" duration="30.00" until="243.0"/> <!-- xinjiekouxi_south -->
+    </route>
+    <route id="bus_bus83_1:0" edges="-gneE89 61862480#0 61862480#1 61862480#1.164 61862480#2 61862480#3 61862480#4 61862480#5 61862480#6 61862480#7 61858449#1 61858449#2 61858449#3 375025776#0 375025776#1 375025776#2" >
+    </route>
+    <route id="bus_bus23_0:0" edges="253448250 256397630.108 256397630.108.453 256397630.108.571 256397630.108.752 256397630.108.941" >
+        <stop busStop="busStop_256397630.108_0_31" duration="30.00" until="97.0"/> <!-- hujuluqingliangshan -->
+        <stop busStop="busStop_256397630.108.571_0_30" duration="30.00" until="231.0"/> <!-- hujuluhanzhongmen -->
+    </route>
+    <route id="bus_bus317_1:0" edges="-61862488#1 -61862488#0 61862487#0 61862487#1 166261566#5 166261566#6 166261566#6.186 166261566#7 166261566#8 166261566#9 779252392 779252392.84 -253448250.14" >
+        <stop busStop="busStop_779252392_0_10" duration="30.00" until="259.0"/> <!-- qiingliangshangongyuan -->
+    </route>
+    <route id="bus_bus42_1:0" edges="422921355#0 422921355#0.210 -gneE60 423512775#0 423512775#0.171 gneE101 gneE701" >
+        <stop busStop="busStop_1" duration="30.00" until="50.0"/> <!-- yuquanlu_north -->
+        <stop busStop="busStop_423512775#0.171_0_3" duration="30.00" until="209.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_423512775#0.171_0_1" duration="30.00" until="277.0"/> <!-- caoqiaomen -->
+    </route>
+    <route id="bus_busY5_0:1" edges="-422848103 432530595#4 432530595#0 432530595#1 159796724 155883037#0 155883037#1 155883037#3 146496699#0 146496699#1 146496699#2 146496699#3 146496699#3.92 74658359#0 74658359#0.102 74658359#1 74658359#2 74658359#2.44 74658359#3 74658359#4 74658359#5 74658359#5.108 -423517785.5" >
+        <stop busStop="busStop_146496699#1_0_40" duration="30.00" until="106.0"/> <!-- xinjiekouxi_north -->
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="284.0"/> <!-- None -->
+    </route>
+    <route id="bus_bus18_1:0" edges="423517785 -74658359#5.7 -74658359#5.179 -74658359#4 -74658359#3 -74658359#2 -74658359#1 -74658359#0 -146496699#3 -146496699#2 -146496699#1 -146496699#0 -155883037#3 -155883037#1" >
+        <stop busStop="busStop_-74658359#5.7_0_28" duration="30.00" until="168.0"/> <!-- hanzhongluhanzhongmen -->
+        <stop busStop="busStop_-74658359#0_0_28" duration="30.00" until="262.0"/> <!-- hanzhonglumochoulu_south -->
+        <stop busStop="busStop_-146496699#1_0_39" duration="30.00" until="330.0"/> <!-- xinjiekouxi_south -->
+    </route>
+    <route id="bus_bus9_0:0" edges="-422848103 432530595#4 432530595#0 432530595#1 159796724 155883037#0 155883037#1 155883037#3 146496699#0 146496699#1 146496699#2 146496699#3 146496699#3.92 74658359#0 74658359#0.102 74658359#1 74658359#2 74658359#2.44 74658359#3 74658359#4 74658359#5 74658359#5.108 -423517785.5" >
+        <stop busStop="busStop_146496699#1_0_40" duration="30.00" until="137.0"/> <!-- xinjiekouxi_north -->
+        <stop busStop="busStop_74658359#0_0_10" duration="30.00" until="226.0"/> <!-- hanzhonglumochoulu_north -->
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="329.0"/> <!-- None -->
+    </route>
+    <route id="bus_bus303_0:0" edges="253448250 422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -166261566#4 -422921344#7 -422921344#7.41 -422921344#6 -422921344#5 -422921344#4 -422921344#3 -422921344#2 -422921344#1 -422921344#0 -422921344#0.71 -422921344#0.136 gneE64 -422921365#0 -422921365#0.178" >
+    </route>
+    <route id="bus_bus78_0:0" edges="--422921344#0 422921344#1 422921344#2 422921344#3 422921344#3.94 422921344#4 422921344#5 422921344#6 422921344#6.86 422921344#7 166261566#4 -61862487#1 -61862487#0 61862488#0 61862488#1 74658359#2 74658359#2.44 74658359#3 74658359#4 74658359#5 74658359#5.108 -423517785.5" >
+        <stop busStop="busStop_0" duration="30.00" until="65.0"/> <!-- ninghailu_west -->
+    </route>
+    <route id="bus_bus48_0:0" edges="-gneE89 61862480#0 61862480#1 61862480#1.164 61862480#2 61862480#3 61862480#4 61862480#5 61862480#6 61862480#7 -190247403#11 -190247403#10 -190247403#9 -190247403#8 -190247403#7 -190247403#6 -190247403#5 -190247403#4 -190247403#3 -190247403#2 -190247403#1 -190247403#0" >
+        <stop busStop="busStop_61862480#1_1_27" duration="30.00" until="132.0"/> <!-- dajianyinxiang -->
+    </route>
+    <route id="bus_bus20_peak_1:0" edges="422925228.23 -166261566#9 -166261566#8 61862589#0 61862589#1 61862589#1.192 61862589#1.696 61970178#0 61970178#1 61970178#2 61970178#2.187 gneE60 gneE63 gneE64 -422921365#0 -422921365#0.178 -779254398#3 -779254398#2 -779254398#1 -779254398#0" >
+    </route>
+    <route id="bus_bus60_1:0" edges="61862485 61862485.55 524568465 524568471#0 524568471#1 524568471#2 524568471#2.195 --61862486#0 61862486#1 61862486#1.61 61862487#0 61862487#1 166261566#5 166261566#6 166261566#6.186 166261566#7 166261566#8 166261566#9 779252392 779252392.84 -253448250.14" >
+        <stop busStop="busStop_61862487#1_0_23" duration="30.00" until="148.0"/> <!-- lasalu -->
+        <stop busStop="busStop_166261566#6_0_21" duration="30.00" until="222.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_779252392_0_10" duration="30.00" until="346.0"/> <!-- qiingliangshangongyuan -->
+    </route>
+    <route id="bus_bus56_0:0" edges="422921365#0 422921365#1 422921365#1.73 422921355#0 422921355#0.210 -gneE60 423512775#0 423512775#0.171 gneE101 gneE701" >
+        <stop busStop="busStop_1" duration="30.00" until="142.0"/> <!-- yuquanlu_north -->
+        <stop busStop="busStop_423512775#0.171_0_3" duration="30.00" until="300.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_423512775#0.171_0_1" duration="30.00" until="366.0"/> <!-- caoqiaomen -->
+    </route>
+    <route id="bus_bus42_0:0" edges="gneE801 gneE1001 gneE1101 -423512775#0.42.58 -423512775#0.621 gneE60 gneE63" >
+        <stop busStop="busStop_-423512775#0.42.58_0_0" duration="30.00" until="166.0"/> <!-- caoqiaomen -->
+        <stop busStop="busStop_-423512775#0.42.58_0_2" duration="30.00" until="235.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_gneE60_0_0" duration="30.00" until="344.0"/> <!-- yuquanlu_south -->
+    </route>
+    <route id="bus_busD15_0:0" edges="74658359#5 74658359#5.108 256397629.59 256397629.271 256397629.390 256397629.607 256397629.727 256397629.959 256397632 256397632.103 256397632.294 383946293 383946293.246 383946293.301 383946297 422921357 gneE701" >
+        <stop busStop="busStop_383946293_0_12" duration="30.00" until="343.0"/> <!-- guofangyuan -->
+    </route>
+    <route id="bus_bus317_0:0" edges="253448250 422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -61862487#1 -61862487#0 61862488#0 61862488#1" >
+        <stop busStop="busStop_422925228.23_0_11" duration="30.00" until="88.0"/> <!-- qingliangshangongyuan -->
+        <stop busStop="busStop_-166261566#6_0_22" duration="30.00" until="226.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_-61862487#1_0_24" duration="30.00" until="301.0"/> <!-- lasalu -->
+        <stop busStop="busStop_61862488#0_0_23" duration="30.00" until="403.0"/> <!-- pailouxiang_west -->
+    </route>
+    <route id="bus_busY6_0:0" edges="422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -166261566#4 -166261566#3 -166261566#2 -166261566#1 -190247403#11 -190247403#10 -190247403#9 -190247403#8 -190247403#7 -190247403#6 -190247403#5 -190247403#4 -190247403#3 -190247403#2 -190247403#1 -190247403#0" >
+        <stop busStop="busStop_422925228.23_0_11" duration="30.00" until="51.0"/> <!-- qingliangshangongyuan -->
+        <stop busStop="busStop_-166261566#6_0_22" duration="30.00" until="144.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_-166261566#4_0_16" duration="30.00" until="226.0"/> <!-- naokeyiyuan_east -->
+        <stop busStop="busStop_-166261566#3_0_18" duration="30.00" until="346.0"/> <!-- suijiacang_south -->
+    </route>
+    <route id="bus_bus68_1:0" edges="423517785 -74658359#5.7 -74658359#5.179 -74658359#4 -74658359#3 -74658359#2 -61862488#1 -61862488#0 -61862486#1.61 gneE68.231 -61862486#0 -524568471#2 -524568471#2.200 -524568471#1 -524568471#0 -524568465 -61862485 -61862485.37" >
+        <stop busStop="busStop_-74658359#5.7_0_28" duration="30.00" until="201.0"/> <!-- hanzhongluhanzhongmen -->
+        <stop busStop="busStop_-61862488#0_0_25" duration="30.00" until="324.0"/> <!-- pailouxiang -->
+    </route>
+    <route id="bus_bus303_1:0" edges="422921365#0 422921365#1 422921365#1.73 --422921344#0 422921344#1 422921344#2 422921344#3 422921344#3.94 422921344#4 422921344#5 422921344#6 422921344#6.86 422921344#7 166261566#4 166261566#5 166261566#6 166261566#6.186 166261566#7 166261566#8 166261566#9 779252392 779252392.84 -253448250.14" >
+        <stop busStop="busStop_779252392_0_10" duration="30.00" until="425.0"/> <!-- qiingliangshangongyuan -->
+    </route>
+    <route id="bus_bus48_1:0" edges="190247403#0 190247403#1 190247403#2 190247403#3 190247403#4 190247403#5 190247403#6 190247403#7 190247403#8 190247403#9 190247403#10 190247403#11 -61862480#7 -61862480#6 -61862480#5 -61862480#4 -61862480#3 -61862480#3.84 -61862480#2 -61862480#1 -61862480#0 -61862480#0.107 -146496699#3 -146496699#2 -146496699#1 -146496699#0 -155883037#3" >
+        <stop busStop="busStop_190247403#2_0_35" duration="30.00" until="78.0"/> <!-- guangzhoulu_zhongshanlu -->
+        <stop busStop="busStop_190247403#6_0_36" duration="30.00" until="170.0"/> <!-- ertongyiyuan -->
+        <stop busStop="busStop_-61862480#1_0_25" duration="30.00" until="322.0"/> <!-- wutaishan_west -->
+        <stop busStop="busStop_-146496699#1_0_39" duration="30.00" until="469.0"/> <!-- xinjiekouxi_south -->
+    </route>
+    <route id="bus_busY11_0:0" edges="gneE801 gneE1001 gneE1101 -423512775#0.42.58 -423512775#0.621 gneE60 gneE63 gneE64 -422921365#0 -422921365#0.178 -779254398#3 -779254398#2 -779254398#1 -779254398#0 423531238 309231778#4 89562527 155900463#0 155900463#1" >
+        <stop busStop="busStop_-423512775#0.42.58_0_0" duration="30.00" until="99.0"/> <!-- caoqiaomen -->
+        <stop busStop="busStop_-423512775#0.42.58_0_2" duration="30.00" until="166.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_gneE60_0_0" duration="30.00" until="301.0"/> <!-- yuquanlu_south -->
+    </route>
+    <route id="bus_busY18_1:0" edges="gneE801 422921363.87 422921368 383945571 383945573 383945573.276 256397630 256397630.108 256397630.108.453 256397630.108.571 256397630.108.752 256397630.108.941" >
+        <stop busStop="busStop_383945571_0_13" duration="30.00" until="184.0"/> <!-- guofangyuan -->
+        <stop busStop="busStop_256397630.108_0_31" duration="30.00" until="328.0"/> <!-- hujuluqingliangshan -->
+        <stop busStop="busStop_256397630.108.571_0_30" duration="30.00" until="450.0"/> <!-- hujuluhanzhongmen -->
+    </route>
+    <route id="bus_bus302_0:0" edges="146496699#0 146496699#1 146496699#2 146496699#3 146496699#3.92 61862480#0 61862480#1 61862480#1.164 61862480#2 --61862486#0 61862486#1 61862486#1.61 61862487#0 61862487#1 166261566#5 166261566#6 166261566#6.186 166261566#7 61862589#0 61862589#1 61862589#1.192 61862589#1.696 61970178#0 61970178#1 61970178#2 61970178#2.187 423512775#0 423512775#0.171 gneE101 gneE701" >
+    </route>
+    <route id="bus_bus56_1:0" edges="gneE801 gneE1001 gneE1101 -423512775#0.42.58 -423512775#0.621 gneE60 gneE63 gneE64 -422921365#0 -422921365#0.178" >
+        <stop busStop="busStop_-423512775#0.42.58_0_0" duration="30.00" until="203.0"/> <!-- caoqiaomen -->
+        <stop busStop="busStop_-423512775#0.42.58_0_2" duration="30.00" until="272.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_gneE60_0_0" duration="30.00" until="382.0"/> <!-- yuquanlu_south -->
+        <stop busStop="busStop_3" duration="30.00" until="497.0"/> <!-- beijingxilu_yunnanlu -->
+    </route>
+    <route id="bus_bus3_0:0" edges="166261566#3 166261566#3.228 -422921344#7 -422921344#7.41 -422921344#6 -422921344#5 -422921344#4 61970176#2 61970176#3 61970176#4 61970178#0 61970178#1 61970178#2 61970178#2.187 gneE60 gneE63" >
+        <stop busStop="busStop_166261566#3_0_19" duration="30.00" until="55.0"/> <!-- suijiacang_north -->
+        <stop busStop="busStop_61970176#2_0_17" duration="30.00" until="168.0"/> <!-- nanyimyangying -->
+        <stop busStop="busStop_61970176#3_0_16" duration="30.00" until="229.0"/> <!-- shanyinlu -->
+        <stop busStop="busStop_61970178#0_0_4" duration="30.00" until="363.0"/> <!-- xikanglu -->
+        <stop busStop="busStop_gneE60_0_0" duration="30.00" until="500.0"/> <!-- yuquanlu_south -->
+    </route>
+    <route id="bus_bus318_1:0" edges="423524825 -61970178#2 -61970178#1 -61970178#0 -61970178#0.142 -61862589#1 -61862589#1.59 -61862589#0 -166261566#7 -166261566#6 -166261566#5 -166261566#4 -166261566#3" >
+        <stop busStop="busStop_-61970178#0_0_5" duration="30.00" until="78.0"/> <!-- xikanglu -->
+        <stop busStop="busStop_-61862589#1.59_0_7" duration="30.00" until="153.0"/> <!-- hujuguanbei -->
+        <stop busStop="busStop_-61862589#1.59_0_9" duration="30.00" until="209.0"/> <!-- hujuguannan -->
+        <stop busStop="busStop_-166261566#6_0_22" duration="30.00" until="322.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_-166261566#4_0_16" duration="30.00" until="413.0"/> <!-- naokeyiyuan_east -->
+        <stop busStop="busStop_-166261566#3_0_18" duration="30.00" until="532.0"/> <!-- suijiacang_south -->
+    </route>
+    <route id="bus_bus502_0:0" edges="74658359#5 74658359#5.108 256397629.59 256397629.271 256397629.390 256397629.607 256397629.727 256397629.959 256397632 256397632.103 256397632.294 383946293 383946293.246 383946293.301 383946297 422921357 gneE601" >
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="40.0"/> <!-- None -->
+        <stop busStop="busStop_383946293_0_12" duration="30.00" until="381.0"/> <!-- guofangyuan -->
+        <stop busStop="busStop_383946297_0_14" duration="30.00" until="463.0"/> <!-- hujulucaochangmen -->
+    </route>
+    <route id="bus_bus91_0:0" edges="253448250 422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -166261566#4 -166261566#3 -166261566#2 -166261566#1 -190247403#11 -190247403#10 -190247403#9 -190247403#8 -190247403#7 -190247403#6 -190247403#5 -190247403#4 -190247403#3 -190247403#2 -190247403#1 -190247403#0" >
+    </route>
+    <route id="bus_bus43_0:0" edges="155883037#3 146496699#0 146496699#1 146496699#2 146496699#3 146496699#3.92 61862480#0 61862480#1 61862480#1.164 61862480#2 --61862486#0 61862486#1 61862486#1.61 61862487#0 61862487#1 166261566#5 166261566#6 166261566#6.186 166261566#7 166261566#8 166261566#9 779252392 779252392.84 -253448250.14" >
+        <stop busStop="busStop_61862480#1_1_27" duration="30.00" until="170.0"/> <!-- dajianyinxiang -->
+        <stop busStop="busStop_61862487#1_0_23" duration="30.00" until="308.0"/> <!-- lasalu -->
+        <stop busStop="busStop_166261566#6_0_21" duration="30.00" until="382.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_779252392_0_10" duration="30.00" until="517.0"/> <!-- qiingliangshangongyuan -->
+    </route>
+    <route id="bus_bus9_1:0" edges="423517785 -74658359#5.7 -74658359#5.179 -74658359#4 -74658359#3 -74658359#2 -74658359#1 -74658359#0 -146496699#3 -146496699#2 -146496699#1 -146496699#0 -155883037#3 -155883037#1 -155883037#0 -159796724 432530595#2 432530595#3 422848103" >
+        <stop busStop="busStop_-74658359#5.7_0_28" duration="30.00" until="229.0"/> <!-- hanzhongluhanzhongmen -->
+        <stop busStop="busStop_-74658359#0_0_28" duration="30.00" until="371.0"/> <!-- hanzhonglumochoulu_south -->
+        <stop busStop="busStop_-146496699#1_0_39" duration="30.00" until="464.0"/> <!-- xinjiekouxi_south -->
+    </route>
+    <route id="bus_busY11_1:0" edges="89562525#1 309231778#1 309231778#2 422921345 779254398#0 779254398#1 779254398#2 779254398#3 779254398#3.143 422921365#0 422921365#1 422921365#1.73 422921355#0 422921355#0.210 -gneE60 423512775#0 423512775#0.171 gneE101 gneE701" >
+        <stop busStop="busStop_309231778#1_0_33" duration="30.00" until="54.0"/> <!-- gulougongjiaozongzhan_north -->
+        <stop busStop="busStop_779254398#3_0_30" duration="30.00" until="157.0"/> <!-- beijingxilu_yunnanlu -->
+        <stop busStop="busStop_1" duration="30.00" until="323.0"/> <!-- yuquanlu_north -->
+        <stop busStop="busStop_423512775#0.171_0_3" duration="30.00" until="478.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_423512775#0.171_0_1" duration="30.00" until="545.0"/> <!-- caoqiaomen -->
+    </route>
+    <route id="bus_bus3_1:0" edges="166261566#3 166261566#3.228 166261566#4 -61862487#1 -61862487#0 -61862486#1.61 gneE68.231 423376906 -61862480#1 -61862480#0 -61862480#0.107 -146496699#3 -146496699#2 -146496699#1 -146496699#0 -155883037#3 -155883037#1 -155883037#0 -159796724 432530595#2 432530595#3 422848103" >
+        <stop busStop="busStop_166261566#3_0_19" duration="30.00" until="88.0"/> <!-- suijiacang_north -->
+        <stop busStop="busStop_166261566#4_0_17" duration="30.00" until="145.0"/> <!-- naokeyiyuan_west  -->
+        <stop busStop="busStop_-61862487#1_0_24" duration="30.00" until="232.0"/> <!-- lasalu -->
+        <stop busStop="busStop_-61862480#1_0_25" duration="30.00" until="374.0"/> <!-- wutaishan_west -->
+        <stop busStop="busStop_-61862480#1_0_11" duration="30.00" until="422.0"/> <!-- dajianyinxiang_west -->
+        <stop busStop="busStop_-146496699#1_0_39" duration="30.00" until="563.0"/> <!-- xinjiekouxi_south -->
+    </route>
+    <route id="bus_busY6_1:0" edges="190247403#0 190247403#1 190247403#2 190247403#3 190247403#4 190247403#5 190247403#6 190247403#7 190247403#8 190247403#9 190247403#10 190247403#11 166261566#1 166261566#2 166261566#3 166261566#3.228 166261566#4 166261566#5 166261566#6 166261566#6.186 166261566#7 166261566#8 166261566#9 779252392 779252392.84" >
+        <stop busStop="busStop_190247403#2_0_35" duration="30.00" until="45.0"/> <!-- guangzhoulu_zhongshanlu -->
+        <stop busStop="busStop_190247403#6_0_36" duration="30.00" until="138.0"/> <!-- ertongyiyuan -->
+        <stop busStop="busStop_166261566#1_0_20" duration="30.00" until="268.0"/> <!-- suijiangcang_east -->
+        <stop busStop="busStop_166261566#4_0_19" duration="30.00" until="404.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_166261566#6_0_21" duration="30.00" until="508.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_779252392_0_10" duration="30.00" until="611.0"/> <!-- qiingliangshangongyuan -->
+    </route>
+    <route id="bus_busY13_1:0" edges="256397629 -74658359#5.7 -74658359#5.179 -74658359#4 -74658359#3 -74658359#2 -74658359#1 -74658359#0 61862480#0 61862480#1 61862480#1.164 61862480#2 61862480#3 61862480#4 61862480#5 61862480#6 61862480#7 -190247403#11 -190247403#10 190247403#10 190247403#11 61858449#1 61858449#2 61858449#3 375025776#0 375025776#1 375025776#2" >
+        <stop busStop="busStop_-74658359#5.7_0_28" duration="30.00" until="87.0"/> <!-- hanzhongluhanzhongmen -->
+        <stop busStop="busStop_61862480#1_1_27" duration="30.00" until="243.0"/> <!-- dajianyinxiang -->
+        <stop busStop="busStop_61862480#1_2_26" duration="30.00" until="291.0"/> <!-- wutaishan_east -->
+        <stop busStop="busStop_4" duration="30.00" until="607.0"/> <!-- None -->
+    </route>
+    <route id="bus_bus318_0:0" edges="166261566#3.228 -422921344#7 -422921344#7.41 -422921344#6 -422921344#5 -422921344#4 -61970176#1 -61858449#3 -61858449#2 -61858449#1 -61858449#1.144 -61858449#1.198 166261566#1 166261566#2 166261566#3 166261566#3.228 166261566#4 166261566#5 166261566#6 166261566#6.186 166261566#7 61862589#0 61862589#1 61862589#1.192 61862589#1.696 61970178#0 61970178#1 61970178#2 61970178#2.187 -423524825" >
+        <stop busStop="busStop_61970178#0_0_4" duration="30.00" until="495.0"/> <!-- xikanglu -->
+    </route>
+    <route id="bus_busD15_1:0" edges="gneE801 422921363.87 422921368 383945571 383945573 383945573.276 256397630 422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -61862487#1 -61862487#0 61862488#0 61862488#1 74658359#2 74658359#2.44 74658359#3 74658359#4" >
+        <stop busStop="busStop_383945571_0_13" duration="30.00" until="216.0"/> <!-- guofangyuan -->
+        <stop busStop="busStop_422925228.23_0_11" duration="30.00" until="352.0"/> <!-- qingliangshangongyuan -->
+        <stop busStop="busStop_-166261566#6_0_22" duration="30.00" until="504.0"/> <!-- naokeyiyuan -->
+    </route>
+    <route id="bus_bus302_1:0" edges="gneE801 gneE1001 gneE1101 -423512775#0.42.58 -423512775#0.621 -61970178#2 -61970178#1 -61970178#0 -61970178#0.142 -61862589#1 -61862589#1.59 -61862589#0 -166261566#7 -166261566#6 -166261566#5 -61862487#1 -61862487#0 -61862486#1.61 gneE68.231 423376906 -61862480#1 -61862480#0 -61862480#0.107 -146496699#3 -146496699#2 -146496699#1 -146496699#0" >
+    </route>
+    <route id="bus_busY18_0:0" edges="256397629 256397629.59 256397629.271 256397629.390 256397629.607 256397629.727 256397629.959 256397632 256397632.103 256397632.294 383946293 383946293.246 383946293.301 383946297 422921357 gneE601" >
+        <stop busStop="busStop_383946293_0_12" duration="30.00" until="450.0"/> <!-- guofangyuan -->
+        <stop busStop="busStop_383946297_0_14" duration="30.00" until="533.0"/> <!-- hujulucaochangmen -->
+    </route>
+    <route id="bus_bus60_0:0" edges="253448250 422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -61862487#1 -61862487#0 -61862486#1.61 gneE68.231 -61862486#0 -524568471#2 -524568471#2.200 -524568471#1 -524568471#0 -524568465 -61862485 -61862485.37" >
+        <stop busStop="busStop_422925228.23_0_11" duration="30.00" until="183.0"/> <!-- qingliangshangongyuan -->
+        <stop busStop="busStop_-166261566#6_0_22" duration="30.00" until="337.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_-61862487#1_0_24" duration="30.00" until="438.0"/> <!-- lasalu -->
+    </route>
+    <route id="bus_busY13_0:0" edges="-375025776#2 -375025776#1 -375025776#0 -61858449#3 -61858449#2 -61858449#1 -61858449#1.144 -61858449#1.198 -61862480#7 -61862480#6 -61862480#5 -61862480#4 -61862480#3 -61862480#3.84 -61862480#2 -61862480#1 -61862480#0 -61862480#0.107 74658359#0 74658359#0.102 74658359#1 74658359#2 74658359#2.44 74658359#3 74658359#4 74658359#5 74658359#5.108 256397630.108.941" >
+        <stop busStop="busStop_5" duration="30.00" until="65.0"/> <!-- None -->
+        <stop busStop="busStop_-61858449#3_0_22" duration="30.00" until="147.0"/> <!-- None -->
+        <stop busStop="busStop_-61862480#1_0_11" duration="30.00" until="333.0"/> <!-- dajianyinxiang_west -->
+        <stop busStop="busStop_74658359#0_0_10" duration="30.00" until="462.0"/> <!-- hanzhonglumochoulu_north -->
+        <stop busStop="busStop_74658359#0_0_10" duration="30.00" until="493.0"/> <!-- hanzhonglumochoulu_north -->
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="604.0"/> <!-- None -->
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="635.0"/> <!-- None -->
+    </route>
+    <route id="bus_bus20_peak:0" edges="422921345 779254398#0 779254398#1 779254398#2 779254398#3 779254398#3.143 422921365#0 422921365#1 422921365#1.73 422921355#0 422921355#0.210 -gneE60 -61970178#2 -61970178#1 -61970178#0 -61970178#0.142 -61862589#1 -61862589#1.59 -61862589#0 166261566#8 166261566#9 779252392 779252392.84" >
+        <stop busStop="busStop_779254398#3_0_30" duration="30.00" until="79.0"/> <!-- beijingxilu_yunnanlu -->
+        <stop busStop="busStop_1" duration="30.00" until="232.0"/> <!-- yuquanlu_north -->
+        <stop busStop="busStop_-61970178#0_0_5" duration="30.00" until="412.0"/> <!-- xikanglu -->
+        <stop busStop="busStop_-61862589#1.59_0_7" duration="30.00" until="520.0"/> <!-- hujuguanbei -->
+        <stop busStop="busStop_-61862589#1.59_0_9" duration="30.00" until="576.0"/> <!-- hujuguannan -->
+        <stop busStop="busStop_779252392_0_10" duration="30.00" until="657.0"/> <!-- qiingliangshangongyuan -->
+    </route>
+    <route id="bus_bus11_0:0" edges="gneE801 gneE1001 gneE1101 -423512775#0.42.58 -423512775#0.621 gneE60 gneE63 gneE64 -422921365#0 -422921365#0.178 -779254398#3 -779254398#2 -779254398#1 -779254398#0 423531238 309231778#4 89562527 155900463#0 155900463#1 61816161#4 309232093 61816161#0" >
+        <stop busStop="busStop_-423512775#0.42.58_0_0" duration="30.00" until="134.0"/> <!-- caoqiaomen -->
+        <stop busStop="busStop_-423512775#0.42.58_0_2" duration="30.00" until="202.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_3" duration="30.00" until="452.0"/> <!-- beijingxilu_yunnanlu -->
+        <stop busStop="busStop_309231778#4_0_31" duration="30.00" until="607.0"/> <!-- gulougongyuan -->
+    </route>
+    <route id="bus_bus43_1:0" edges="253448250 422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -61862487#1 -61862487#0 -61862486#1.61 gneE68.231 423376906 -61862480#1 -61862480#0 -61862480#0.107 -146496699#3 -146496699#2 -146496699#1 -146496699#0 -155883037#3" >
+        <stop busStop="busStop_422925228.23_0_11" duration="30.00" until="150.0"/> <!-- qingliangshangongyuan -->
+        <stop busStop="busStop_-166261566#6_0_22" duration="30.00" until="303.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_-61862487#1_0_14" duration="30.00" until="377.0"/> <!-- lasalu_south -->
+        <stop busStop="busStop_-61862480#1_0_25" duration="30.00" until="504.0"/> <!-- wutaishan_west -->
+        <stop busStop="busStop_-146496699#1_0_39" duration="30.00" until="602.0"/> <!-- xinjiekouxi_south -->
+    </route>
+    <route id="bus_bus11_1:0" edges="61816161#1 61816161#2 89562525#0 89562525#1 309231778#1 309231778#2 422921345 779254398#0 779254398#1 779254398#2 779254398#3 779254398#3.143 422921365#0 422921365#1 422921365#1.73 422921355#0 422921355#0.210 -gneE60 423512775#0 423512775#0.171 gneE101 gneE701" >
+        <stop busStop="busStop_309231778#1_0_33" duration="30.00" until="92.0"/> <!-- gulougongjiaozongzhan_north -->
+        <stop busStop="busStop_779254398#3_0_30" duration="30.00" until="232.0"/> <!-- beijingxilu_yunnanlu -->
+        <stop busStop="busStop_1" duration="30.00" until="412.0"/> <!-- yuquanlu_north -->
+        <stop busStop="busStop_423512775#0.171_0_3" duration="30.00" until="569.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_423512775#0.171_0_1" duration="30.00" until="635.0"/> <!-- caoqiaomen -->
+    </route>
+    <route id="bus_bus78_1:0" edges="423517785 -74658359#5.7 -74658359#5.179 -74658359#4 -74658359#3 -74658359#2 -61862488#1 -61862488#0 61862487#0 61862487#1 -166261566#4 -422921344#7 -422921344#7.41 -422921344#6 -422921344#5 -422921344#4 -422921344#3 -422921344#2 -422921344#1 -422921344#0 -422921344#0.71 -422921344#0.136" >
+        <stop busStop="busStop_-74658359#5.7_0_28" duration="30.00" until="197.0"/> <!-- hanzhongluhanzhongmen -->
+        <stop busStop="busStop_-61862488#0_0_24" duration="30.00" until="296.0"/> <!-- pailouxiang_east -->
+        <stop busStop="busStop_61862487#1_0_23" duration="30.00" until="380.0"/> <!-- lasalu -->
+        <stop busStop="busStop_-166261566#4_0_16" duration="30.00" until="439.0"/> <!-- naokeyiyuan_east -->
+        <stop busStop="busStop_2" duration="30.00" until="635.0"/> <!-- ninghailu_east -->
+    </route>
+    <route id="bus_bus502_1:0" edges="gneE901 422921363.87 422921368 383945571 383945573 383945573.276 256397630 422925228.23 -166261566#9 -166261566#8 -166261566#7 -166261566#6 -166261566#5 -61862487#1 -61862487#0 61862488#0 61862488#1 74658359#2 74658359#2.44 74658359#3 74658359#4 74658359#5" >
+        <stop busStop="busStop_383945571_0_13" duration="30.00" until="141.0"/> <!-- guofangyuan -->
+        <stop busStop="busStop_422925228.23_0_11" duration="30.00" until="314.0"/> <!-- qingliangshangongyuan -->
+        <stop busStop="busStop_-166261566#6_0_22" duration="30.00" until="468.0"/> <!-- naokeyiyuan -->
+        <stop busStop="busStop_61862488#0_0_23" duration="30.00" until="631.0"/> <!-- pailouxiang_west -->
+        <stop busStop="busStop_74658359#5_0_27" duration="30.00" until="740.0"/> <!-- None -->
+    </route>
+    <route id="bus_bus20_1:0" edges="61816161#1 61816161#2 89562525#0 89562525#1 309231778#1 309231778#2 422921345 779254398#0 779254398#1 779254398#2 779254398#3 779254398#3.143 -375025776#2 -375025776#1 -375025776#0 61970176#1 61970176#1.162 61970176#2 61970176#3 61970176#4 -61862589#1 -61862589#1.59 -61862589#0 166261566#8 166261566#9 779252392 779252392.84 -253448250.14" >
+        <stop busStop="busStop_309231778#1_0_33" duration="30.00" until="125.0"/> <!-- gulougongjiaozongzhan_north -->
+        <stop busStop="busStop_5" duration="30.00" until="273.0"/> <!-- None -->
+        <stop busStop="busStop_61970176#2_0_17" duration="30.00" until="355.0"/> <!-- nanyimyangying -->
+        <stop busStop="busStop_61970176#3_0_16" duration="30.00" until="417.0"/> <!-- shanyinlu -->
+        <stop busStop="busStop_-61862589#1.59_0_7" duration="30.00" until="558.0"/> <!-- hujuguanbei -->
+        <stop busStop="busStop_-61862589#1.59_0_9" duration="30.00" until="613.0"/> <!-- hujuguannan -->
+        <stop busStop="busStop_779252392_0_10" duration="30.00" until="738.0"/> <!-- qiingliangshangongyuan -->
+    </route>
+    <route id="bus_bus20_0:0" edges="253448250 422925228.23 -166261566#9 -166261566#8 61862589#0 61862589#1 61862589#1.192 61862589#1.696 -61970176#4 -61970176#3 -61970176#2 -61970176#1 375025776#0 375025776#1 375025776#2 -779254398#3 -779254398#2 -779254398#1 -779254398#0 423531238 309231778#4 89562527 155900463#0 155900463#1 61816161#4 309232093 61816161#0" >
+        <stop busStop="busStop_422925228.23_0_11" duration="30.00" until="119.0"/> <!-- qingliangshangongyuan -->
+        <stop busStop="busStop_61862589#1.192_0_8" duration="30.00" until="217.0"/> <!-- hujuguannan -->
+        <stop busStop="busStop_61862589#1.192_0_6" duration="30.00" until="266.0"/> <!-- hujuguanbei -->
+        <stop busStop="busStop_-61970176#4_0_15" duration="30.00" until="365.0"/> <!-- shanyinlu -->
+        <stop busStop="busStop_-61970176#3_0_18" duration="30.00" until="436.0"/> <!-- nanyinyangying -->
+        <stop busStop="busStop_4" duration="30.00" until="523.0"/> <!-- None -->
+        <stop busStop="busStop_309231778#4_0_31" duration="30.00" until="658.0"/> <!-- gulougongyuan -->
+    </route>
+    <route id="bus_bus65_0:0" edges="190247403#0 190247403#1 190247403#2 190247403#3 190247403#4 190247403#5 190247403#6 190247403#7 190247403#8 190247403#9 190247403#10 190247403#11 61858449#1 61858449#2 61858449#3 61970176#1 61970176#1.162 -422921344#3 -422921344#2 -422921344#1 -422921344#0 -422921344#0.71 -422921344#0.136 422921355#0 422921355#0.210 -gneE60 423512775#0 423512775#0.171 gneE101 gneE701" >
+        <stop busStop="busStop_190247403#2_0_35" duration="30.00" until="110.0"/> <!-- guangzhoulu_zhongshanlu -->
+        <stop busStop="busStop_190247403#6_0_36" duration="30.00" until="217.0"/> <!-- ertongyiyuan -->
+        <stop busStop="busStop_61858449#1_0_21" duration="30.00" until="353.0"/> <!-- None -->
+        <stop busStop="busStop_2" duration="30.00" until="447.0"/> <!-- ninghailu_east -->
+        <stop busStop="busStop_1" duration="30.00" until="547.0"/> <!-- yuquanlu_north -->
+        <stop busStop="busStop_423512775#0.171_0_3" duration="30.00" until="638.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_423512775#0.171_0_1" duration="30.00" until="705.0"/> <!-- caoqiaomen -->
+    </route>
+    <route id="bus_bus65_1:0" edges="gneE801 gneE1001 gneE1101 -423512775#0.42.58 -423512775#0.621 gneE60 gneE63 gneE64 -422921365#0 -422921365#0.178 -375025776#2 -375025776#1 -375025776#0 -61858449#3 -61858449#2 -61858449#1 -61858449#1.144 -61858449#1.198 -190247403#11 -190247403#10 -190247403#9 -190247403#8 -190247403#7 -190247403#6 -190247403#5 -190247403#4 -190247403#3 -190247403#2 -190247403#1 -190247403#0" >
+        <stop busStop="busStop_-423512775#0.42.58_0_0" duration="30.00" until="219.0"/> <!-- caoqiaomen -->
+        <stop busStop="busStop_-423512775#0.42.58_0_2" duration="30.00" until="289.0"/> <!-- jiangsushengwei -->
+        <stop busStop="busStop_gneE60_0_0" duration="30.00" until="412.0"/> <!-- yuquanlu_south -->
+        <stop busStop="busStop_5" duration="30.00" until="601.0"/> <!-- None -->
+    </route>
+    <flow id="bus_bus23_1:0" type="bus" route="bus_bus23_1:0" begin="0.0" end="86400.0" period="600" line="bus23_1:0" >
+        <param key="name" value="bus23_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus91_1:0" type="bus" route="bus_bus91_1:0" begin="0.0" end="86400.0" period="600" line="bus91_1:0" >
+        <param key="name" value="bus91_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY5_0:0" type="bus" route="bus_busY5_0:0" begin="0.0" end="86400.0" period="600" line="busY5_0:0" >
+        <param key="name" value="busY5_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus68_0:0" type="bus" route="bus_bus68_0:0" begin="0.0" end="86400.0" period="600" line="bus68_0:0" >
+        <param key="name" value="bus68_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus18_0:0" type="bus" route="bus_bus18_0:0" begin="0.0" end="86400.0" period="600" line="bus18_0:0" >
+        <param key="name" value="bus18_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bustour3_0:0" type="bus" route="bus_bustour3_0:0" begin="0.0" end="86400.0" period="600" line="bustour3_0:0" >
+        <param key="name" value="bustour3_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus83_1:0" type="bus" route="bus_bus83_1:0" begin="0.0" end="86400.0" period="600" line="bus83_1:0" >
+        <param key="name" value="bus83_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus23_0:0" type="bus" route="bus_bus23_0:0" begin="0.0" end="86400.0" period="600" line="bus23_0:0" >
+        <param key="name" value="bus23_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus317_1:0" type="bus" route="bus_bus317_1:0" begin="0.0" end="86400.0" period="600" line="bus317_1:0" >
+        <param key="name" value="bus317_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus42_1:0" type="bus" route="bus_bus42_1:0" begin="0.0" end="86400.0" period="600" line="bus42_1:0" >
+        <param key="name" value="bus42_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY5_0:1" type="bus" route="bus_busY5_0:1" begin="0.0" end="86400.0" period="600" line="busY5_0:1" >
+        <param key="name" value="busY5_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus18_1:0" type="bus" route="bus_bus18_1:0" begin="0.0" end="86400.0" period="600" line="bus18_1:0" >
+        <param key="name" value="bus18_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus9_0:0" type="bus" route="bus_bus9_0:0" begin="6.0" end="86406.0" period="600" line="bus9_0:0" >
+        <param key="name" value="bus9_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus303_0:0" type="bus" route="bus_bus303_0:0" begin="0.0" end="86400.0" period="600" line="bus303_0:0" >
+        <param key="name" value="bus303_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus78_0:0" type="bus" route="bus_bus78_0:0" begin="0.0" end="86400.0" period="600" line="bus78_0:0" >
+        <param key="name" value="bus78_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus48_0:0" type="bus" route="bus_bus48_0:0" begin="0.0" end="86400.0" period="600" line="bus48_0:0" >
+        <param key="name" value="bus48_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus20_peak_1:0" type="bus" route="bus_bus20_peak_1:0" begin="0.0" end="86400.0" period="600" line="bus20_peak_1:0" >
+        <param key="name" value="bus20_peak_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus60_1:0" type="bus" route="bus_bus60_1:0" begin="0.0" end="86400.0" period="600" line="bus60_1:0" >
+        <param key="name" value="bus60_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus56_0:0" type="bus" route="bus_bus56_0:0" begin="0.0" end="86400.0" period="600" line="bus56_0:0" >
+        <param key="name" value="bus56_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus42_0:0" type="bus" route="bus_bus42_0:0" begin="15.0" end="86415.0" period="600" line="bus42_0:0" >
+        <param key="name" value="bus42_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busD15_0:0" type="bus" route="bus_busD15_0:0" begin="0.0" end="86400.0" period="600" line="busD15_0:0" >
+        <param key="name" value="busD15_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus317_0:0" type="bus" route="bus_bus317_0:0" begin="44.0" end="86444.0" period="600" line="bus317_0:0" >
+        <param key="name" value="bus317_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY6_0:0" type="bus" route="bus_busY6_0:0" begin="6.0" end="86406.0" period="600" line="busY6_0:0" >
+        <param key="name" value="busY6_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus68_1:0" type="bus" route="bus_bus68_1:0" begin="6.0" end="86406.0" period="600" line="bus68_1:0" >
+        <param key="name" value="bus68_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus303_1:0" type="bus" route="bus_bus303_1:0" begin="0.0" end="86400.0" period="600" line="bus303_1:0" >
+        <param key="name" value="bus303_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus48_1:0" type="bus" route="bus_bus48_1:0" begin="12.0" end="86412.0" period="600" line="bus48_1:0" >
+        <param key="name" value="bus48_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY11_0:0" type="bus" route="bus_busY11_0:0" begin="6.0" end="86406.0" period="600" line="busY11_0:0" >
+        <param key="name" value="busY11_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY18_1:0" type="bus" route="bus_busY18_1:0" begin="0.0" end="86400.0" period="600" line="busY18_1:0" >
+        <param key="name" value="busY18_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus302_0:0" type="bus" route="bus_bus302_0:0" begin="0.0" end="86400.0" period="600" line="bus302_0:0" >
+        <param key="name" value="bus302_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus56_1:0" type="bus" route="bus_bus56_1:0" begin="16.0" end="86416.0" period="600" line="bus56_1:0" >
+        <param key="name" value="bus56_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus3_0:0" type="bus" route="bus_bus3_0:0" begin="0.0" end="86400.0" period="600" line="bus3_0:0" >
+        <param key="name" value="bus3_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus318_1:0" type="bus" route="bus_bus318_1:0" begin="0.0" end="86400.0" period="600" line="bus318_1:0" >
+        <param key="name" value="bus318_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus502_0:0" type="bus" route="bus_bus502_0:0" begin="0.0" end="86400.0" period="600" line="bus502_0:0" >
+        <param key="name" value="bus502_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus91_0:0" type="bus" route="bus_bus91_0:0" begin="67.0" end="86467.0" period="600" line="bus91_0:0" >
+        <param key="name" value="bus91_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus43_0:0" type="bus" route="bus_bus43_0:0" begin="0.0" end="86400.0" period="600" line="bus43_0:0" >
+        <param key="name" value="bus43_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus9_1:0" type="bus" route="bus_bus9_1:0" begin="55.0" end="86455.0" period="600" line="bus9_1:0" >
+        <param key="name" value="bus9_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY11_1:0" type="bus" route="bus_busY11_1:0" begin="0.0" end="86400.0" period="600" line="busY11_1:0" >
+        <param key="name" value="busY11_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus3_1:0" type="bus" route="bus_bus3_1:0" begin="6.0" end="86406.0" period="600" line="bus3_1:0" >
+        <param key="name" value="bus3_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY6_1:0" type="bus" route="bus_busY6_1:0" begin="6.0" end="86406.0" period="600" line="busY6_1:0" >
+        <param key="name" value="busY6_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY13_1:0" type="bus" route="bus_busY13_1:0" begin="5.0" end="86405.0" period="600" line="busY13_1:0" >
+        <param key="name" value="busY13_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus318_0:0" type="bus" route="bus_bus318_0:0" begin="0.0" end="86400.0" period="600" line="bus318_0:0" >
+        <param key="name" value="bus318_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busD15_1:0" type="bus" route="bus_busD15_1:0" begin="6.0" end="86406.0" period="600" line="busD15_1:0" >
+        <param key="name" value="busD15_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus302_1:0" type="bus" route="bus_bus302_1:0" begin="0.0" end="86400.0" period="600" line="bus302_1:0" >
+        <param key="name" value="bus302_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY18_0:0" type="bus" route="bus_busY18_0:0" begin="6.0" end="86406.0" period="600" line="busY18_0:0" >
+        <param key="name" value="busY18_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus60_0:0" type="bus" route="bus_bus60_0:0" begin="61.0" end="86461.0" period="600" line="bus60_0:0" >
+        <param key="name" value="bus60_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_busY13_0:0" type="bus" route="bus_busY13_0:0" begin="0.0" end="86400.0" period="600" line="busY13_0:0" >
+        <param key="name" value="busY13_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus20_peak:0" type="bus" route="bus_bus20_peak:0" begin="0.0" end="86400.0" period="600" line="bus20_peak:0" >
+        <param key="name" value="bus20_peak"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus11_0:0" type="bus" route="bus_bus11_0:0" begin="9.0" end="86409.0" period="600" line="bus11_0:0" >
+        <param key="name" value="bus11_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus43_1:0" type="bus" route="bus_bus43_1:0" begin="56.0" end="86456.0" period="600" line="bus43_1:0" >
+        <param key="name" value="bus43_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus11_1:0" type="bus" route="bus_bus11_1:0" begin="0.0" end="86400.0" period="600" line="bus11_1:0" >
+        <param key="name" value="bus11_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus78_1:0" type="bus" route="bus_bus78_1:0" begin="49.0" end="86449.0" period="600" line="bus78_1:0" >
+        <param key="name" value="bus78_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus502_1:0" type="bus" route="bus_bus502_1:0" begin="5.0" end="86405.0" period="600" line="bus502_1:0" >
+        <param key="name" value="bus502_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus20_1:0" type="bus" route="bus_bus20_1:0" begin="6.0" end="86406.0" period="600" line="bus20_1:0" >
+        <param key="name" value="bus20_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus20_0:0" type="bus" route="bus_bus20_0:0" begin="50.0" end="86450.0" period="600" line="bus20_0:0" >
+        <param key="name" value="bus20_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus65_0:0" type="bus" route="bus_bus65_0:0" begin="18.0" end="86418.0" period="600" line="bus65_0:0" >
+        <param key="name" value="bus65_0"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="bus_bus65_1:0" type="bus" route="bus_bus65_1:0" begin="38.0" end="86438.0" period="600" line="bus65_1:0" >
+        <param key="name" value="bus65_1"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+</routes>

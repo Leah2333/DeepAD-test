@@ -1,0 +1,5 @@
+<routes>
+        <vehicle id="test" type="passenger" depart="26000" color="orange">
+        <route edges="1@3#0 3@4#0"/> 
+        </vehicle>
+        </routes>

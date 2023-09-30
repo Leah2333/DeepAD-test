@@ -1,0 +1,6 @@
+<routes>
+        <vType vClass="passenger" id="passenger" accel="2" decel="1.5" sigma="0.5" length="4" color="255,255,255" guiShape="passenger"/>
+        <vehicle id="test" type="passenger" depart="950" color="orange">
+        <route edges="1@3#0"/> 
+        </vehicle>
+        </routes>

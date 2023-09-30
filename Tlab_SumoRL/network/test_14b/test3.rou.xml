@@ -1,0 +1,704 @@
+<routes>
+    <vType id="typenormal" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" guiShape="passenger"/>
+    <vType id="typebus" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="3" maxSpeed="13" guiShape="bus"/>
+  <route id="normal1" edges="0/1to1/1 1/1to2/1 2/1to3/1 3/1to3/2"/>
+    <route id="outright" edges="0/2to1/2 1/2to2/2 2/2to3/2 3/2to3/1" />
+    <route id="middleright" edges="0/1to1/1 1/1to2/1 2/1to3/1 3/1to3/2" />
+    <route id="middleright2" edges="1/0to1/1 1/1to2/1 2/1to2/0" />
+    <route id="middleright3" edges="0/0to0/1 0/1to1/1 1/1to1/0 1/0to0/0" />
+    <route id="circle" edges="1/2to2/2 2/2to2/1 2/1to2/0 2/0to1/0 1/0to1/1 1/1to1/2" />
+<flow id="1" type="typenormal" route="normal1" begin="0" end="10800" period="0.5" departPos='90'/>
+    <vehicle id="outright_0" type="typenormal" route="outright" depart="1"/>
+    <vehicle id="middleright_1" type="typenormal" route="middleright" depart="3"/>
+    <vehicle id="middleright3st_2" type="typebus" route="middleright3" depart="4" color="blue"/>
+    <vehicle id="outright_3" type="typenormal" route="outright" depart="5"/>
+    <vehicle id="middleright_4" type="typenormal" route="middleright" depart="5"/>
+    <vehicle id="circle_5" type="typenormal" route="circle" depart="6" color="1,0,0"/>
+    <vehicle id="middleright_6" type="typenormal" route="middleright" depart="7"/>
+    <vehicle id="circle_7" type="typenormal" route="circle" depart="7" color="1,0,0"/>
+    <vehicle id="outright_8" type="typenormal" route="outright" depart="8"/>
+    <vehicle id="outright_9" type="typenormal" route="outright" depart="9"/>
+    <vehicle id="circle_10" type="typenormal" route="circle" depart="9" color="1,0,0"/>
+    <vehicle id="middleright_11" type="typenormal" route="middleright" depart="11"/>
+    <vehicle id="middleright_12" type="typenormal" route="middleright" depart="12"/>
+    <vehicle id="circle_13" type="typenormal" route="circle" depart="12" color="1,0,0"/>
+    <vehicle id="circle_14" type="typenormal" route="circle" depart="14" color="1,0,0"/>
+    <vehicle id="outright_15" type="typenormal" route="outright" depart="15"/>
+    <vehicle id="middleright_16" type="typenormal" route="middleright" depart="15"/>
+    <vehicle id="middleright_17" type="typenormal" route="middleright" depart="16"/>
+    <vehicle id="middleright2st_18" type="typebus" route="middleright2" depart="16" color="blue"/>
+    <vehicle id="outright_19" type="typenormal" route="outright" depart="21"/>
+    <vehicle id="middleright2st_20" type="typebus" route="middleright2" depart="21" color="blue"/>
+    <vehicle id="middleright3st_21" type="typebus" route="middleright3" depart="23" color="blue"/>
+    <vehicle id="circle_22" type="typenormal" route="circle" depart="23" color="1,0,0"/>
+    <vehicle id="middleright2st_23" type="typebus" route="middleright2" depart="27" color="blue"/>
+    <vehicle id="circle_24" type="typenormal" route="circle" depart="28" color="1,0,0"/>
+    <vehicle id="middleright3st_25" type="typebus" route="middleright3" depart="29" color="blue"/>
+    <vehicle id="circle_26" type="typenormal" route="circle" depart="31" color="1,0,0"/>
+    <vehicle id="middleright2st_27" type="typebus" route="middleright2" depart="33" color="blue"/>
+    <vehicle id="outright_28" type="typenormal" route="outright" depart="34"/>
+    <vehicle id="middleright3st_29" type="typebus" route="middleright3" depart="35" color="blue"/>
+    <vehicle id="circle_30" type="typenormal" route="circle" depart="35" color="1,0,0"/>
+    <vehicle id="middleright_31" type="typenormal" route="middleright" depart="37"/>
+    <vehicle id="middleright_32" type="typenormal" route="middleright" depart="40"/>
+    <vehicle id="circle_33" type="typenormal" route="circle" depart="41" color="1,0,0"/>
+    <vehicle id="middleright_34" type="typenormal" route="middleright" depart="44"/>
+    <vehicle id="middleright2st_35" type="typebus" route="middleright2" depart="44" color="blue"/>
+    <vehicle id="middleright2st_36" type="typebus" route="middleright2" depart="45" color="blue"/>
+    <vehicle id="middleright_37" type="typenormal" route="middleright" depart="46"/>
+    <vehicle id="circle_38" type="typenormal" route="circle" depart="47" color="1,0,0"/>
+    <vehicle id="middleright_39" type="typenormal" route="middleright" depart="48"/>
+    <vehicle id="circle_40" type="typenormal" route="circle" depart="51" color="1,0,0"/>
+    <vehicle id="middleright3st_41" type="typebus" route="middleright3" depart="52" color="blue"/>
+    <vehicle id="outright_42" type="typenormal" route="outright" depart="53"/>
+    <vehicle id="middleright2st_43" type="typebus" route="middleright2" depart="58" color="blue"/>
+    <vehicle id="middleright_44" type="typenormal" route="middleright" depart="59"/>
+    <vehicle id="circle_45" type="typenormal" route="circle" depart="59" color="1,0,0"/>
+    <vehicle id="middleright2st_46" type="typebus" route="middleright2" depart="60" color="blue"/>
+    <vehicle id="outright_47" type="typenormal" route="outright" depart="63"/>
+    <vehicle id="middleright2st_48" type="typebus" route="middleright2" depart="63" color="blue"/>
+    <vehicle id="middleright_49" type="typenormal" route="middleright" depart="67"/>
+    <vehicle id="circle_50" type="typenormal" route="circle" depart="67" color="1,0,0"/>
+    <vehicle id="outright_51" type="typenormal" route="outright" depart="68"/>
+    <vehicle id="outright_52" type="typenormal" route="outright" depart="70"/>
+    <vehicle id="middleright_53" type="typenormal" route="middleright" depart="70"/>
+    <vehicle id="middleright2st_54" type="typebus" route="middleright2" depart="70" color="blue"/>
+    <vehicle id="middleright_55" type="typenormal" route="middleright" depart="71"/>
+    <vehicle id="middleright3st_56" type="typebus" route="middleright3" depart="71" color="blue"/>
+    <vehicle id="circle_57" type="typenormal" route="circle" depart="75" color="1,0,0"/>
+    <vehicle id="middleright_58" type="typenormal" route="middleright" depart="77"/>
+    <vehicle id="middleright3st_59" type="typebus" route="middleright3" depart="77" color="blue"/>
+    <vehicle id="middleright_60" type="typenormal" route="middleright" depart="80"/>
+    <vehicle id="middleright3st_61" type="typebus" route="middleright3" depart="80" color="blue"/>
+    <vehicle id="middleright_62" type="typenormal" route="middleright" depart="81"/>
+    <vehicle id="outright_63" type="typenormal" route="outright" depart="82"/>
+    <vehicle id="middleright_64" type="typenormal" route="middleright" depart="82"/>
+    <vehicle id="middleright3st_65" type="typebus" route="middleright3" depart="89" color="blue"/>
+    <vehicle id="circle_66" type="typenormal" route="circle" depart="90" color="1,0,0"/>
+    <vehicle id="circle_67" type="typenormal" route="circle" depart="93" color="1,0,0"/>
+    <vehicle id="middleright3st_68" type="typebus" route="middleright3" depart="95" color="blue"/>
+    <vehicle id="outright_69" type="typenormal" route="outright" depart="96"/>
+    <vehicle id="middleright_70" type="typenormal" route="middleright" depart="96"/>
+    <vehicle id="middleright_71" type="typenormal" route="middleright" depart="98"/>
+    <vehicle id="middleright_72" type="typenormal" route="middleright" depart="101"/>
+    <vehicle id="middleright_73" type="typenormal" route="middleright" depart="103"/>
+    <vehicle id="middleright3st_74" type="typebus" route="middleright3" depart="106" color="blue"/>
+    <vehicle id="middleright_75" type="typenormal" route="middleright" depart="108"/>
+    <vehicle id="circle_76" type="typenormal" route="circle" depart="108" color="1,0,0"/>
+    <vehicle id="outright_77" type="typenormal" route="outright" depart="111"/>
+    <vehicle id="outright_78" type="typenormal" route="outright" depart="115"/>
+    <vehicle id="middleright_79" type="typenormal" route="middleright" depart="115"/>
+    <vehicle id="middleright2st_80" type="typebus" route="middleright2" depart="115" color="blue"/>
+    <vehicle id="middleright_81" type="typenormal" route="middleright" depart="118"/>
+    <vehicle id="middleright2st_82" type="typebus" route="middleright2" depart="118" color="blue"/>
+    <vehicle id="circle_83" type="typenormal" route="circle" depart="120" color="1,0,0"/>
+    <vehicle id="middleright_84" type="typenormal" route="middleright" depart="124"/>
+    <vehicle id="middleright_85" type="typenormal" route="middleright" depart="125"/>
+    <vehicle id="middleright_86" type="typenormal" route="middleright" depart="131"/>
+    <vehicle id="outright_87" type="typenormal" route="outright" depart="132"/>
+    <vehicle id="middleright_88" type="typenormal" route="middleright" depart="134"/>
+    <vehicle id="middleright_89" type="typenormal" route="middleright" depart="136"/>
+    <vehicle id="middleright2st_90" type="typebus" route="middleright2" depart="143" color="blue"/>
+    <vehicle id="middleright_91" type="typenormal" route="middleright" depart="144"/>
+    <vehicle id="outright_92" type="typenormal" route="outright" depart="145"/>
+    <vehicle id="circle_93" type="typenormal" route="circle" depart="146" color="1,0,0"/>
+    <vehicle id="middleright_94" type="typenormal" route="middleright" depart="147"/>
+    <vehicle id="circle_95" type="typenormal" route="circle" depart="148" color="1,0,0"/>
+    <vehicle id="middleright_96" type="typenormal" route="middleright" depart="149"/>
+    <vehicle id="middleright2st_97" type="typebus" route="middleright2" depart="152" color="blue"/>
+    <vehicle id="middleright_98" type="typenormal" route="middleright" depart="153"/>
+    <vehicle id="circle_99" type="typenormal" route="circle" depart="155" color="1,0,0"/>
+    <vehicle id="outright_100" type="typenormal" route="outright" depart="156"/>
+    <vehicle id="middleright2st_101" type="typebus" route="middleright2" depart="156" color="blue"/>
+    <vehicle id="circle_102" type="typenormal" route="circle" depart="156" color="1,0,0"/>
+    <vehicle id="middleright_103" type="typenormal" route="middleright" depart="157"/>
+    <vehicle id="middleright2st_104" type="typebus" route="middleright2" depart="158" color="blue"/>
+    <vehicle id="outright_105" type="typenormal" route="outright" depart="162"/>
+    <vehicle id="outright_106" type="typenormal" route="outright" depart="164"/>
+    <vehicle id="middleright3st_107" type="typebus" route="middleright3" depart="164" color="blue"/>
+    <vehicle id="circle_108" type="typenormal" route="circle" depart="164" color="1,0,0"/>
+    <vehicle id="middleright2st_109" type="typebus" route="middleright2" depart="165" color="blue"/>
+    <vehicle id="middleright_110" type="typenormal" route="middleright" depart="166"/>
+    <vehicle id="outright_111" type="typenormal" route="outright" depart="167"/>
+    <vehicle id="middleright_112" type="typenormal" route="middleright" depart="171"/>
+    <vehicle id="middleright3st_113" type="typebus" route="middleright3" depart="174" color="blue"/>
+    <vehicle id="middleright3st_114" type="typebus" route="middleright3" depart="175" color="blue"/>
+    <vehicle id="outright_115" type="typenormal" route="outright" depart="176"/>
+    <vehicle id="middleright_116" type="typenormal" route="middleright" depart="177"/>
+    <vehicle id="middleright_117" type="typenormal" route="middleright" depart="181"/>
+    <vehicle id="middleright2st_118" type="typebus" route="middleright2" depart="181" color="blue"/>
+    <vehicle id="middleright_119" type="typenormal" route="middleright" depart="182"/>
+    <vehicle id="middleright_120" type="typenormal" route="middleright" depart="185"/>
+    <vehicle id="middleright2st_121" type="typebus" route="middleright2" depart="187" color="blue"/>
+    <vehicle id="middleright2st_122" type="typebus" route="middleright2" depart="188" color="blue"/>
+    <vehicle id="outright_123" type="typenormal" route="outright" depart="191"/>
+    <vehicle id="middleright_124" type="typenormal" route="middleright" depart="191"/>
+    <vehicle id="circle_125" type="typenormal" route="circle" depart="195" color="1,0,0"/>
+    <vehicle id="middleright2st_126" type="typebus" route="middleright2" depart="198" color="blue"/>
+    <vehicle id="middleright_127" type="typenormal" route="middleright" depart="199"/>
+    <vehicle id="middleright2st_128" type="typebus" route="middleright2" depart="201" color="blue"/>
+    <vehicle id="outright_129" type="typenormal" route="outright" depart="203"/>
+    <vehicle id="middleright_130" type="typenormal" route="middleright" depart="203"/>
+    <vehicle id="middleright_131" type="typenormal" route="middleright" depart="204"/>
+    <vehicle id="middleright_132" type="typenormal" route="middleright" depart="206"/>
+    <vehicle id="outright_133" type="typenormal" route="outright" depart="207"/>
+    <vehicle id="middleright2st_134" type="typebus" route="middleright2" depart="207" color="blue"/>
+    <vehicle id="middleright2st_135" type="typebus" route="middleright2" depart="209" color="blue"/>
+    <vehicle id="circle_136" type="typenormal" route="circle" depart="209" color="1,0,0"/>
+    <vehicle id="middleright_137" type="typenormal" route="middleright" depart="210"/>
+    <vehicle id="circle_138" type="typenormal" route="circle" depart="210" color="1,0,0"/>
+    <vehicle id="middleright_139" type="typenormal" route="middleright" depart="211"/>
+    <vehicle id="circle_140" type="typenormal" route="circle" depart="215" color="1,0,0"/>
+    <vehicle id="middleright_141" type="typenormal" route="middleright" depart="217"/>
+    <vehicle id="middleright_142" type="typenormal" route="middleright" depart="218"/>
+    <vehicle id="middleright_143" type="typenormal" route="middleright" depart="219"/>
+    <vehicle id="middleright3st_144" type="typebus" route="middleright3" depart="219" color="blue"/>
+    <vehicle id="outright_145" type="typenormal" route="outright" depart="221"/>
+    <vehicle id="circle_146" type="typenormal" route="circle" depart="222" color="1,0,0"/>
+    <vehicle id="middleright3st_147" type="typebus" route="middleright3" depart="223" color="blue"/>
+    <vehicle id="circle_148" type="typenormal" route="circle" depart="224" color="1,0,0"/>
+    <vehicle id="middleright_149" type="typenormal" route="middleright" depart="225"/>
+    <vehicle id="middleright_150" type="typenormal" route="middleright" depart="226"/>
+    <vehicle id="circle_151" type="typenormal" route="circle" depart="226" color="1,0,0"/>
+    <vehicle id="outright_152" type="typenormal" route="outright" depart="227"/>
+    <vehicle id="middleright_153" type="typenormal" route="middleright" depart="227"/>
+    <vehicle id="middleright2st_154" type="typebus" route="middleright2" depart="227" color="blue"/>
+    <vehicle id="circle_155" type="typenormal" route="circle" depart="231" color="1,0,0"/>
+    <vehicle id="outright_156" type="typenormal" route="outright" depart="233"/>
+    <vehicle id="outright_157" type="typenormal" route="outright" depart="235"/>
+    <vehicle id="outright_158" type="typenormal" route="outright" depart="238"/>
+    <vehicle id="middleright_159" type="typenormal" route="middleright" depart="238"/>
+    <vehicle id="outright_160" type="typenormal" route="outright" depart="239"/>
+    <vehicle id="middleright_161" type="typenormal" route="middleright" depart="239"/>
+    <vehicle id="middleright2st_162" type="typebus" route="middleright2" depart="239" color="blue"/>
+    <vehicle id="middleright_163" type="typenormal" route="middleright" depart="244"/>
+    <vehicle id="circle_164" type="typenormal" route="circle" depart="244" color="1,0,0"/>
+    <vehicle id="middleright_165" type="typenormal" route="middleright" depart="245"/>
+    <vehicle id="middleright3st_166" type="typebus" route="middleright3" depart="245" color="blue"/>
+    <vehicle id="circle_167" type="typenormal" route="circle" depart="245" color="1,0,0"/>
+    <vehicle id="circle_168" type="typenormal" route="circle" depart="246" color="1,0,0"/>
+    <vehicle id="outright_169" type="typenormal" route="outright" depart="247"/>
+    <vehicle id="outright_170" type="typenormal" route="outright" depart="248"/>
+    <vehicle id="middleright3st_171" type="typebus" route="middleright3" depart="249" color="blue"/>
+    <vehicle id="outright_172" type="typenormal" route="outright" depart="250"/>
+    <vehicle id="middleright_173" type="typenormal" route="middleright" depart="251"/>
+    <vehicle id="middleright_174" type="typenormal" route="middleright" depart="256"/>
+    <vehicle id="outright_175" type="typenormal" route="outright" depart="258"/>
+    <vehicle id="circle_176" type="typenormal" route="circle" depart="258" color="1,0,0"/>
+    <vehicle id="middleright_177" type="typenormal" route="middleright" depart="260"/>
+    <vehicle id="middleright2st_178" type="typebus" route="middleright2" depart="262" color="blue"/>
+    <vehicle id="middleright_179" type="typenormal" route="middleright" depart="264"/>
+    <vehicle id="middleright_180" type="typenormal" route="middleright" depart="266"/>
+    <vehicle id="circle_181" type="typenormal" route="circle" depart="266" color="1,0,0"/>
+    <vehicle id="middleright3st_182" type="typebus" route="middleright3" depart="267" color="blue"/>
+    <vehicle id="circle_183" type="typenormal" route="circle" depart="269" color="1,0,0"/>
+    <vehicle id="middleright_184" type="typenormal" route="middleright" depart="271"/>
+    <vehicle id="middleright2st_185" type="typebus" route="middleright2" depart="272" color="blue"/>
+    <vehicle id="outright_186" type="typenormal" route="outright" depart="273"/>
+    <vehicle id="middleright2st_187" type="typebus" route="middleright2" depart="273" color="blue"/>
+    <vehicle id="middleright_188" type="typenormal" route="middleright" depart="274"/>
+    <vehicle id="middleright2st_189" type="typebus" route="middleright2" depart="276" color="blue"/>
+    <vehicle id="circle_190" type="typenormal" route="circle" depart="278" color="1,0,0"/>
+    <vehicle id="middleright_191" type="typenormal" route="middleright" depart="279"/>
+    <vehicle id="outright_192" type="typenormal" route="outright" depart="281"/>
+    <vehicle id="middleright_193" type="typenormal" route="middleright" depart="282"/>
+    <vehicle id="outright_194" type="typenormal" route="outright" depart="283"/>
+    <vehicle id="middleright_195" type="typenormal" route="middleright" depart="285"/>
+    <vehicle id="middleright3st_196" type="typebus" route="middleright3" depart="286" color="blue"/>
+    <vehicle id="circle_197" type="typenormal" route="circle" depart="286" color="1,0,0"/>
+    <vehicle id="middleright_198" type="typenormal" route="middleright" depart="288"/>
+    <vehicle id="middleright2st_199" type="typebus" route="middleright2" depart="288" color="blue"/>
+    <vehicle id="middleright_200" type="typenormal" route="middleright" depart="289"/>
+    <vehicle id="circle_201" type="typenormal" route="circle" depart="290" color="1,0,0"/>
+    <vehicle id="middleright_202" type="typenormal" route="middleright" depart="295"/>
+    <vehicle id="middleright_203" type="typenormal" route="middleright" depart="296"/>
+    <vehicle id="outright_204" type="typenormal" route="outright" depart="297"/>
+    <vehicle id="middleright2st_205" type="typebus" route="middleright2" depart="298" color="blue"/>
+    <vehicle id="middleright_206" type="typenormal" route="middleright" depart="300"/>
+    <vehicle id="middleright_207" type="typenormal" route="middleright" depart="301"/>
+    <vehicle id="middleright3st_208" type="typebus" route="middleright3" depart="305" color="blue"/>
+    <vehicle id="middleright2st_209" type="typebus" route="middleright2" depart="306" color="blue"/>
+    <vehicle id="outright_210" type="typenormal" route="outright" depart="309"/>
+    <vehicle id="middleright_211" type="typenormal" route="middleright" depart="309"/>
+    <vehicle id="middleright2st_212" type="typebus" route="middleright2" depart="310" color="blue"/>
+    <vehicle id="middleright_213" type="typenormal" route="middleright" depart="312"/>
+    <vehicle id="outright_214" type="typenormal" route="outright" depart="313"/>
+    <vehicle id="middleright_215" type="typenormal" route="middleright" depart="315"/>
+    <vehicle id="middleright3st_216" type="typebus" route="middleright3" depart="315" color="blue"/>
+    <vehicle id="middleright2st_217" type="typebus" route="middleright2" depart="316" color="blue"/>
+    <vehicle id="outright_218" type="typenormal" route="outright" depart="317"/>
+    <vehicle id="circle_219" type="typenormal" route="circle" depart="319" color="1,0,0"/>
+    <vehicle id="circle_220" type="typenormal" route="circle" depart="321" color="1,0,0"/>
+    <vehicle id="middleright3st_221" type="typebus" route="middleright3" depart="322" color="blue"/>
+    <vehicle id="middleright3st_222" type="typebus" route="middleright3" depart="323" color="blue"/>
+    <vehicle id="circle_223" type="typenormal" route="circle" depart="323" color="1,0,0"/>
+    <vehicle id="outright_224" type="typenormal" route="outright" depart="324"/>
+    <vehicle id="middleright_225" type="typenormal" route="middleright" depart="324"/>
+    <vehicle id="middleright3st_226" type="typebus" route="middleright3" depart="324" color="blue"/>
+    <vehicle id="outright_227" type="typenormal" route="outright" depart="325"/>
+    <vehicle id="outright_228" type="typenormal" route="outright" depart="326"/>
+    <vehicle id="outright_229" type="typenormal" route="outright" depart="328"/>
+    <vehicle id="middleright_230" type="typenormal" route="middleright" depart="328"/>
+    <vehicle id="outright_231" type="typenormal" route="outright" depart="329"/>
+    <vehicle id="middleright3st_232" type="typebus" route="middleright3" depart="332" color="blue"/>
+    <vehicle id="middleright2st_233" type="typebus" route="middleright2" depart="333" color="blue"/>
+    <vehicle id="circle_234" type="typenormal" route="circle" depart="334" color="1,0,0"/>
+    <vehicle id="middleright2st_235" type="typebus" route="middleright2" depart="335" color="blue"/>
+    <vehicle id="middleright3st_236" type="typebus" route="middleright3" depart="335" color="blue"/>
+    <vehicle id="outright_237" type="typenormal" route="outright" depart="338"/>
+    <vehicle id="middleright_238" type="typenormal" route="middleright" depart="338"/>
+    <vehicle id="middleright3st_239" type="typebus" route="middleright3" depart="340" color="blue"/>
+    <vehicle id="middleright_240" type="typenormal" route="middleright" depart="341"/>
+    <vehicle id="outright_241" type="typenormal" route="outright" depart="342"/>
+    <vehicle id="middleright3st_242" type="typebus" route="middleright3" depart="342" color="blue"/>
+    <vehicle id="middleright_243" type="typenormal" route="middleright" depart="343"/>
+    <vehicle id="middleright2st_244" type="typebus" route="middleright2" depart="343" color="blue"/>
+    <vehicle id="outright_245" type="typenormal" route="outright" depart="344"/>
+    <vehicle id="middleright_246" type="typenormal" route="middleright" depart="348"/>
+    <vehicle id="middleright2st_247" type="typebus" route="middleright2" depart="348" color="blue"/>
+    <vehicle id="outright_248" type="typenormal" route="outright" depart="353"/>
+    <vehicle id="middleright3st_249" type="typebus" route="middleright3" depart="354" color="blue"/>
+    <vehicle id="circle_250" type="typenormal" route="circle" depart="354" color="1,0,0"/>
+    <vehicle id="outright_251" type="typenormal" route="outright" depart="356"/>
+    <vehicle id="circle_252" type="typenormal" route="circle" depart="356" color="1,0,0"/>
+    <vehicle id="middleright_253" type="typenormal" route="middleright" depart="361"/>
+    <vehicle id="circle_254" type="typenormal" route="circle" depart="361" color="1,0,0"/>
+    <vehicle id="middleright_255" type="typenormal" route="middleright" depart="362"/>
+    <vehicle id="middleright2st_256" type="typebus" route="middleright2" depart="363" color="blue"/>
+    <vehicle id="outright_257" type="typenormal" route="outright" depart="364"/>
+    <vehicle id="outright_258" type="typenormal" route="outright" depart="366"/>
+    <vehicle id="middleright_259" type="typenormal" route="middleright" depart="366"/>
+    <vehicle id="middleright_260" type="typenormal" route="middleright" depart="367"/>
+    <vehicle id="circle_261" type="typenormal" route="circle" depart="368" color="1,0,0"/>
+    <vehicle id="middleright2st_262" type="typebus" route="middleright2" depart="370" color="blue"/>
+    <vehicle id="middleright3st_263" type="typebus" route="middleright3" depart="370" color="blue"/>
+    <vehicle id="middleright_264" type="typenormal" route="middleright" depart="371"/>
+    <vehicle id="outright_265" type="typenormal" route="outright" depart="372"/>
+    <vehicle id="middleright_266" type="typenormal" route="middleright" depart="374"/>
+    <vehicle id="middleright2st_267" type="typebus" route="middleright2" depart="375" color="blue"/>
+    <vehicle id="middleright3st_268" type="typebus" route="middleright3" depart="375" color="blue"/>
+    <vehicle id="middleright3st_269" type="typebus" route="middleright3" depart="376" color="blue"/>
+    <vehicle id="middleright_270" type="typenormal" route="middleright" depart="378"/>
+    <vehicle id="middleright_271" type="typenormal" route="middleright" depart="379"/>
+    <vehicle id="middleright3st_272" type="typebus" route="middleright3" depart="380" color="blue"/>
+    <vehicle id="middleright_273" type="typenormal" route="middleright" depart="381"/>
+    <vehicle id="outright_274" type="typenormal" route="outright" depart="384"/>
+    <vehicle id="outright_275" type="typenormal" route="outright" depart="385"/>
+    <vehicle id="outright_276" type="typenormal" route="outright" depart="386"/>
+    <vehicle id="middleright_277" type="typenormal" route="middleright" depart="386"/>
+    <vehicle id="middleright_278" type="typenormal" route="middleright" depart="387"/>
+    <vehicle id="middleright2st_279" type="typebus" route="middleright2" depart="387" color="blue"/>
+    <vehicle id="outright_280" type="typenormal" route="outright" depart="388"/>
+    <vehicle id="middleright_281" type="typenormal" route="middleright" depart="388"/>
+    <vehicle id="middleright2st_282" type="typebus" route="middleright2" depart="389" color="blue"/>
+    <vehicle id="outright_283" type="typenormal" route="outright" depart="391"/>
+    <vehicle id="middleright2st_284" type="typebus" route="middleright2" depart="391" color="blue"/>
+    <vehicle id="middleright_285" type="typenormal" route="middleright" depart="392"/>
+    <vehicle id="middleright2st_286" type="typebus" route="middleright2" depart="393" color="blue"/>
+    <vehicle id="outright_287" type="typenormal" route="outright" depart="394"/>
+    <vehicle id="middleright3st_288" type="typebus" route="middleright3" depart="394" color="blue"/>
+    <vehicle id="circle_289" type="typenormal" route="circle" depart="396" color="1,0,0"/>
+    <vehicle id="middleright2st_290" type="typebus" route="middleright2" depart="400" color="blue"/>
+    <vehicle id="middleright3st_291" type="typebus" route="middleright3" depart="403" color="blue"/>
+    <vehicle id="outright_292" type="typenormal" route="outright" depart="406"/>
+    <vehicle id="middleright3st_293" type="typebus" route="middleright3" depart="407" color="blue"/>
+    <vehicle id="middleright_294" type="typenormal" route="middleright" depart="408"/>
+    <vehicle id="circle_295" type="typenormal" route="circle" depart="408" color="1,0,0"/>
+    <vehicle id="middleright3st_296" type="typebus" route="middleright3" depart="409" color="blue"/>
+    <vehicle id="circle_297" type="typenormal" route="circle" depart="410" color="1,0,0"/>
+    <vehicle id="outright_298" type="typenormal" route="outright" depart="413"/>
+    <vehicle id="circle_299" type="typenormal" route="circle" depart="414" color="1,0,0"/>
+    <vehicle id="circle_300" type="typenormal" route="circle" depart="417" color="1,0,0"/>
+    <vehicle id="circle_301" type="typenormal" route="circle" depart="418" color="1,0,0"/>
+    <vehicle id="middleright_302" type="typenormal" route="middleright" depart="421"/>
+    <vehicle id="circle_303" type="typenormal" route="circle" depart="421" color="1,0,0"/>
+    <vehicle id="middleright_304" type="typenormal" route="middleright" depart="424"/>
+    <vehicle id="outright_305" type="typenormal" route="outright" depart="426"/>
+    <vehicle id="circle_306" type="typenormal" route="circle" depart="429" color="1,0,0"/>
+    <vehicle id="middleright_307" type="typenormal" route="middleright" depart="430"/>
+    <vehicle id="middleright_308" type="typenormal" route="middleright" depart="432"/>
+    <vehicle id="middleright2st_309" type="typebus" route="middleright2" depart="433" color="blue"/>
+    <vehicle id="middleright_310" type="typenormal" route="middleright" depart="434"/>
+    <vehicle id="circle_311" type="typenormal" route="circle" depart="434" color="1,0,0"/>
+    <vehicle id="middleright_312" type="typenormal" route="middleright" depart="438"/>
+    <vehicle id="middleright_313" type="typenormal" route="middleright" depart="439"/>
+    <vehicle id="middleright2st_314" type="typebus" route="middleright2" depart="441" color="blue"/>
+    <vehicle id="middleright_315" type="typenormal" route="middleright" depart="445"/>
+    <vehicle id="middleright2st_316" type="typebus" route="middleright2" depart="447" color="blue"/>
+    <vehicle id="outright_317" type="typenormal" route="outright" depart="448"/>
+    <vehicle id="middleright2st_318" type="typebus" route="middleright2" depart="452" color="blue"/>
+    <vehicle id="circle_319" type="typenormal" route="circle" depart="453" color="1,0,0"/>
+    <vehicle id="middleright2st_320" type="typebus" route="middleright2" depart="455" color="blue"/>
+    <vehicle id="circle_321" type="typenormal" route="circle" depart="455" color="1,0,0"/>
+    <vehicle id="circle_322" type="typenormal" route="circle" depart="457" color="1,0,0"/>
+    <vehicle id="middleright_323" type="typenormal" route="middleright" depart="458"/>
+    <vehicle id="middleright2st_324" type="typebus" route="middleright2" depart="459" color="blue"/>
+    <vehicle id="middleright2st_325" type="typebus" route="middleright2" depart="461" color="blue"/>
+    <vehicle id="middleright_326" type="typenormal" route="middleright" depart="462"/>
+    <vehicle id="circle_327" type="typenormal" route="circle" depart="463" color="1,0,0"/>
+    <vehicle id="middleright3st_328" type="typebus" route="middleright3" depart="464" color="blue"/>
+    <vehicle id="outright_329" type="typenormal" route="outright" depart="465"/>
+    <vehicle id="middleright_330" type="typenormal" route="middleright" depart="466"/>
+    <vehicle id="outright_331" type="typenormal" route="outright" depart="468"/>
+    <vehicle id="middleright_332" type="typenormal" route="middleright" depart="469"/>
+    <vehicle id="outright_333" type="typenormal" route="outright" depart="470"/>
+    <vehicle id="middleright_334" type="typenormal" route="middleright" depart="470"/>
+    <vehicle id="circle_335" type="typenormal" route="circle" depart="472" color="1,0,0"/>
+    <vehicle id="outright_336" type="typenormal" route="outright" depart="473"/>
+    <vehicle id="middleright2st_337" type="typebus" route="middleright2" depart="477" color="blue"/>
+    <vehicle id="outright_338" type="typenormal" route="outright" depart="479"/>
+    <vehicle id="circle_339" type="typenormal" route="circle" depart="483" color="1,0,0"/>
+    <vehicle id="circle_340" type="typenormal" route="circle" depart="484" color="1,0,0"/>
+    <vehicle id="middleright2st_341" type="typebus" route="middleright2" depart="485" color="blue"/>
+    <vehicle id="outright_342" type="typenormal" route="outright" depart="487"/>
+    <vehicle id="circle_343" type="typenormal" route="circle" depart="487" color="1,0,0"/>
+    <vehicle id="middleright_344" type="typenormal" route="middleright" depart="488"/>
+    <vehicle id="circle_345" type="typenormal" route="circle" depart="488" color="1,0,0"/>
+    <vehicle id="outright_346" type="typenormal" route="outright" depart="489"/>
+    <vehicle id="middleright_347" type="typenormal" route="middleright" depart="489"/>
+    <vehicle id="middleright_348" type="typenormal" route="middleright" depart="491"/>
+    <vehicle id="middleright_349" type="typenormal" route="middleright" depart="492"/>
+    <vehicle id="outright_350" type="typenormal" route="outright" depart="494"/>
+    <vehicle id="middleright3st_351" type="typebus" route="middleright3" depart="494" color="blue"/>
+    <vehicle id="outright_352" type="typenormal" route="outright" depart="497"/>
+    <vehicle id="middleright_353" type="typenormal" route="middleright" depart="497"/>
+    <vehicle id="middleright2st_354" type="typebus" route="middleright2" depart="497" color="blue"/>
+    <vehicle id="middleright2st_355" type="typebus" route="middleright2" depart="498" color="blue"/>
+    <vehicle id="middleright2st_356" type="typebus" route="middleright2" depart="499" color="blue"/>
+    <vehicle id="middleright_357" type="typenormal" route="middleright" depart="501"/>
+    <vehicle id="outright_358" type="typenormal" route="outright" depart="502"/>
+    <vehicle id="middleright_359" type="typenormal" route="middleright" depart="502"/>
+    <vehicle id="middleright2st_360" type="typebus" route="middleright2" depart="503" color="blue"/>
+    <vehicle id="middleright_361" type="typenormal" route="middleright" depart="505"/>
+    <vehicle id="middleright_362" type="typenormal" route="middleright" depart="506"/>
+    <vehicle id="outright_363" type="typenormal" route="outright" depart="508"/>
+    <vehicle id="middleright_364" type="typenormal" route="middleright" depart="514"/>
+    <vehicle id="middleright_365" type="typenormal" route="middleright" depart="518"/>
+    <vehicle id="middleright_366" type="typenormal" route="middleright" depart="520"/>
+    <vehicle id="middleright_367" type="typenormal" route="middleright" depart="521"/>
+    <vehicle id="circle_368" type="typenormal" route="circle" depart="522" color="1,0,0"/>
+    <vehicle id="middleright_369" type="typenormal" route="middleright" depart="523"/>
+    <vehicle id="outright_370" type="typenormal" route="outright" depart="524"/>
+    <vehicle id="middleright_371" type="typenormal" route="middleright" depart="526"/>
+    <vehicle id="outright_372" type="typenormal" route="outright" depart="529"/>
+    <vehicle id="middleright_373" type="typenormal" route="middleright" depart="530"/>
+    <vehicle id="circle_374" type="typenormal" route="circle" depart="531" color="1,0,0"/>
+    <vehicle id="middleright3st_375" type="typebus" route="middleright3" depart="534" color="blue"/>
+    <vehicle id="middleright_376" type="typenormal" route="middleright" depart="535"/>
+    <vehicle id="middleright2st_377" type="typebus" route="middleright2" depart="536" color="blue"/>
+    <vehicle id="circle_378" type="typenormal" route="circle" depart="543" color="1,0,0"/>
+    <vehicle id="middleright_379" type="typenormal" route="middleright" depart="544"/>
+    <vehicle id="middleright_380" type="typenormal" route="middleright" depart="545"/>
+    <vehicle id="middleright_381" type="typenormal" route="middleright" depart="547"/>
+    <vehicle id="circle_382" type="typenormal" route="circle" depart="548" color="1,0,0"/>
+    <vehicle id="middleright2st_383" type="typebus" route="middleright2" depart="550" color="blue"/>
+    <vehicle id="middleright3st_384" type="typebus" route="middleright3" depart="551" color="blue"/>
+    <vehicle id="middleright_385" type="typenormal" route="middleright" depart="553"/>
+    <vehicle id="middleright_386" type="typenormal" route="middleright" depart="554"/>
+    <vehicle id="circle_387" type="typenormal" route="circle" depart="556" color="1,0,0"/>
+    <vehicle id="middleright2st_388" type="typebus" route="middleright2" depart="558" color="blue"/>
+    <vehicle id="middleright3st_389" type="typebus" route="middleright3" depart="558" color="blue"/>
+    <vehicle id="middleright3st_390" type="typebus" route="middleright3" depart="561" color="blue"/>
+    <vehicle id="outright_391" type="typenormal" route="outright" depart="564"/>
+    <vehicle id="middleright2st_392" type="typebus" route="middleright2" depart="564" color="blue"/>
+    <vehicle id="outright_393" type="typenormal" route="outright" depart="565"/>
+    <vehicle id="circle_394" type="typenormal" route="circle" depart="565" color="1,0,0"/>
+    <vehicle id="middleright_395" type="typenormal" route="middleright" depart="566"/>
+    <vehicle id="outright_396" type="typenormal" route="outright" depart="567"/>
+    <vehicle id="circle_397" type="typenormal" route="circle" depart="569" color="1,0,0"/>
+    <vehicle id="circle_398" type="typenormal" route="circle" depart="570" color="1,0,0"/>
+    <vehicle id="middleright_399" type="typenormal" route="middleright" depart="572"/>
+    <vehicle id="middleright_400" type="typenormal" route="middleright" depart="573"/>
+    <vehicle id="middleright_401" type="typenormal" route="middleright" depart="574"/>
+    <vehicle id="outright_402" type="typenormal" route="outright" depart="577"/>
+    <vehicle id="middleright_403" type="typenormal" route="middleright" depart="578"/>
+    <vehicle id="middleright2st_404" type="typebus" route="middleright2" depart="581" color="blue"/>
+    <vehicle id="middleright_405" type="typenormal" route="middleright" depart="582"/>
+    <vehicle id="outright_406" type="typenormal" route="outright" depart="583"/>
+    <vehicle id="middleright3st_407" type="typebus" route="middleright3" depart="584" color="blue"/>
+    <vehicle id="middleright_408" type="typenormal" route="middleright" depart="585"/>
+    <vehicle id="middleright_409" type="typenormal" route="middleright" depart="587"/>
+    <vehicle id="middleright_410" type="typenormal" route="middleright" depart="588"/>
+    <vehicle id="middleright_411" type="typenormal" route="middleright" depart="589"/>
+    <vehicle id="outright_412" type="typenormal" route="outright" depart="592"/>
+    <vehicle id="middleright_413" type="typenormal" route="middleright" depart="594"/>
+    <vehicle id="middleright_414" type="typenormal" route="middleright" depart="595"/>
+    <vehicle id="middleright3st_415" type="typebus" route="middleright3" depart="599" color="blue"/>
+    <vehicle id="circle_416" type="typenormal" route="circle" depart="600" color="1,0,0"/>
+    <vehicle id="middleright3st_417" type="typebus" route="middleright3" depart="602" color="blue"/>
+    <vehicle id="outright_418" type="typenormal" route="outright" depart="604"/>
+    <vehicle id="outright_419" type="typenormal" route="outright" depart="605"/>
+    <vehicle id="outright_420" type="typenormal" route="outright" depart="607"/>
+    <vehicle id="middleright_421" type="typenormal" route="middleright" depart="607"/>
+    <vehicle id="circle_422" type="typenormal" route="circle" depart="607" color="1,0,0"/>
+    <vehicle id="middleright_423" type="typenormal" route="middleright" depart="608"/>
+    <vehicle id="outright_424" type="typenormal" route="outright" depart="614"/>
+    <vehicle id="middleright_425" type="typenormal" route="middleright" depart="614"/>
+    <vehicle id="middleright2st_426" type="typebus" route="middleright2" depart="614" color="blue"/>
+    <vehicle id="middleright3st_427" type="typebus" route="middleright3" depart="614" color="blue"/>
+    <vehicle id="middleright2st_428" type="typebus" route="middleright2" depart="616" color="blue"/>
+    <vehicle id="middleright_429" type="typenormal" route="middleright" depart="617"/>
+    <vehicle id="circle_430" type="typenormal" route="circle" depart="617" color="1,0,0"/>
+    <vehicle id="outright_431" type="typenormal" route="outright" depart="621"/>
+    <vehicle id="middleright_432" type="typenormal" route="middleright" depart="621"/>
+    <vehicle id="middleright3st_433" type="typebus" route="middleright3" depart="621" color="blue"/>
+    <vehicle id="outright_434" type="typenormal" route="outright" depart="624"/>
+    <vehicle id="middleright_435" type="typenormal" route="middleright" depart="624"/>
+    <vehicle id="middleright_436" type="typenormal" route="middleright" depart="625"/>
+    <vehicle id="middleright3st_437" type="typebus" route="middleright3" depart="626" color="blue"/>
+    <vehicle id="middleright_438" type="typenormal" route="middleright" depart="627"/>
+    <vehicle id="outright_439" type="typenormal" route="outright" depart="628"/>
+    <vehicle id="outright_440" type="typenormal" route="outright" depart="635"/>
+    <vehicle id="middleright2st_441" type="typebus" route="middleright2" depart="635" color="blue"/>
+    <vehicle id="middleright_442" type="typenormal" route="middleright" depart="636"/>
+    <vehicle id="middleright_443" type="typenormal" route="middleright" depart="637"/>
+    <vehicle id="middleright_444" type="typenormal" route="middleright" depart="639"/>
+    <vehicle id="middleright_445" type="typenormal" route="middleright" depart="642"/>
+    <vehicle id="middleright2st_446" type="typebus" route="middleright2" depart="643" color="blue"/>
+    <vehicle id="circle_447" type="typenormal" route="circle" depart="643" color="1,0,0"/>
+    <vehicle id="middleright_448" type="typenormal" route="middleright" depart="644"/>
+    <vehicle id="middleright_449" type="typenormal" route="middleright" depart="645"/>
+    <vehicle id="circle_450" type="typenormal" route="circle" depart="648" color="1,0,0"/>
+    <vehicle id="middleright_451" type="typenormal" route="middleright" depart="650"/>
+    <vehicle id="outright_452" type="typenormal" route="outright" depart="651"/>
+    <vehicle id="middleright_453" type="typenormal" route="middleright" depart="652"/>
+    <vehicle id="middleright_454" type="typenormal" route="middleright" depart="653"/>
+    <vehicle id="middleright3st_455" type="typebus" route="middleright3" depart="653" color="blue"/>
+    <vehicle id="middleright_456" type="typenormal" route="middleright" depart="657"/>
+    <vehicle id="outright_457" type="typenormal" route="outright" depart="658"/>
+    <vehicle id="circle_458" type="typenormal" route="circle" depart="658" color="1,0,0"/>
+    <vehicle id="outright_459" type="typenormal" route="outright" depart="659"/>
+    <vehicle id="outright_460" type="typenormal" route="outright" depart="661"/>
+    <vehicle id="middleright_461" type="typenormal" route="middleright" depart="661"/>
+    <vehicle id="middleright3st_462" type="typebus" route="middleright3" depart="661" color="blue"/>
+    <vehicle id="outright_463" type="typenormal" route="outright" depart="663"/>
+    <vehicle id="middleright2st_464" type="typebus" route="middleright2" depart="663" color="blue"/>
+    <vehicle id="circle_465" type="typenormal" route="circle" depart="663" color="1,0,0"/>
+    <vehicle id="middleright2st_466" type="typebus" route="middleright2" depart="664" color="blue"/>
+    <vehicle id="middleright2st_467" type="typebus" route="middleright2" depart="665" color="blue"/>
+    <vehicle id="circle_468" type="typenormal" route="circle" depart="665" color="1,0,0"/>
+    <vehicle id="middleright_469" type="typenormal" route="middleright" depart="670"/>
+    <vehicle id="outright_470" type="typenormal" route="outright" depart="671"/>
+    <vehicle id="middleright3st_471" type="typebus" route="middleright3" depart="671" color="blue"/>
+    <vehicle id="middleright3st_472" type="typebus" route="middleright3" depart="672" color="blue"/>
+    <vehicle id="middleright_473" type="typenormal" route="middleright" depart="673"/>
+    <vehicle id="middleright2st_474" type="typebus" route="middleright2" depart="673" color="blue"/>
+    <vehicle id="middleright_475" type="typenormal" route="middleright" depart="681"/>
+    <vehicle id="circle_476" type="typenormal" route="circle" depart="681" color="1,0,0"/>
+    <vehicle id="middleright_477" type="typenormal" route="middleright" depart="682"/>
+    <vehicle id="middleright2st_478" type="typebus" route="middleright2" depart="682" color="blue"/>
+    <vehicle id="middleright_479" type="typenormal" route="middleright" depart="686"/>
+    <vehicle id="middleright2st_480" type="typebus" route="middleright2" depart="687" color="blue"/>
+    <vehicle id="outright_481" type="typenormal" route="outright" depart="690"/>
+    <vehicle id="middleright2st_482" type="typebus" route="middleright2" depart="691" color="blue"/>
+    <vehicle id="outright_483" type="typenormal" route="outright" depart="692"/>
+    <vehicle id="middleright_484" type="typenormal" route="middleright" depart="693"/>
+    <vehicle id="middleright_485" type="typenormal" route="middleright" depart="695"/>
+    <vehicle id="middleright_486" type="typenormal" route="middleright" depart="696"/>
+    <vehicle id="middleright_487" type="typenormal" route="middleright" depart="698"/>
+    <vehicle id="circle_488" type="typenormal" route="circle" depart="702" color="1,0,0"/>
+    <vehicle id="middleright2st_489" type="typebus" route="middleright2" depart="706" color="blue"/>
+    <vehicle id="outright_490" type="typenormal" route="outright" depart="707"/>
+    <vehicle id="outright_491" type="typenormal" route="outright" depart="708"/>
+    <vehicle id="middleright_492" type="typenormal" route="middleright" depart="708"/>
+    <vehicle id="middleright_493" type="typenormal" route="middleright" depart="710"/>
+    <vehicle id="outright_494" type="typenormal" route="outright" depart="712"/>
+    <vehicle id="middleright_495" type="typenormal" route="middleright" depart="712"/>
+    <vehicle id="middleright_496" type="typenormal" route="middleright" depart="713"/>
+    <vehicle id="middleright_497" type="typenormal" route="middleright" depart="715"/>
+    <vehicle id="middleright2st_498" type="typebus" route="middleright2" depart="716" color="blue"/>
+    <vehicle id="circle_499" type="typenormal" route="circle" depart="717" color="1,0,0"/>
+    <vehicle id="outright_500" type="typenormal" route="outright" depart="724"/>
+    <vehicle id="circle_501" type="typenormal" route="circle" depart="725" color="1,0,0"/>
+    <vehicle id="middleright_502" type="typenormal" route="middleright" depart="727"/>
+    <vehicle id="circle_503" type="typenormal" route="circle" depart="728" color="1,0,0"/>
+    <vehicle id="middleright3st_504" type="typebus" route="middleright3" depart="729" color="blue"/>
+    <vehicle id="middleright_505" type="typenormal" route="middleright" depart="730"/>
+    <vehicle id="middleright3st_506" type="typebus" route="middleright3" depart="730" color="blue"/>
+    <vehicle id="circle_507" type="typenormal" route="circle" depart="730" color="1,0,0"/>
+    <vehicle id="middleright2st_508" type="typebus" route="middleright2" depart="731" color="blue"/>
+    <vehicle id="middleright_509" type="typenormal" route="middleright" depart="735"/>
+    <vehicle id="middleright_510" type="typenormal" route="middleright" depart="737"/>
+    <vehicle id="outright_511" type="typenormal" route="outright" depart="738"/>
+    <vehicle id="outright_512" type="typenormal" route="outright" depart="739"/>
+    <vehicle id="middleright_513" type="typenormal" route="middleright" depart="739"/>
+    <vehicle id="middleright3st_514" type="typebus" route="middleright3" depart="739" color="blue"/>
+    <vehicle id="circle_515" type="typenormal" route="circle" depart="739" color="1,0,0"/>
+    <vehicle id="middleright_516" type="typenormal" route="middleright" depart="740"/>
+    <vehicle id="middleright_517" type="typenormal" route="middleright" depart="741"/>
+    <vehicle id="circle_518" type="typenormal" route="circle" depart="741" color="1,0,0"/>
+    <vehicle id="middleright_519" type="typenormal" route="middleright" depart="744"/>
+    <vehicle id="middleright3st_520" type="typebus" route="middleright3" depart="745" color="blue"/>
+    <vehicle id="middleright3st_521" type="typebus" route="middleright3" depart="748" color="blue"/>
+    <vehicle id="middleright2st_522" type="typebus" route="middleright2" depart="750" color="blue"/>
+    <vehicle id="middleright_523" type="typenormal" route="middleright" depart="752"/>
+    <vehicle id="outright_524" type="typenormal" route="outright" depart="754"/>
+    <vehicle id="middleright2st_525" type="typebus" route="middleright2" depart="754" color="blue"/>
+    <vehicle id="middleright3st_526" type="typebus" route="middleright3" depart="754" color="blue"/>
+    <vehicle id="middleright_527" type="typenormal" route="middleright" depart="758"/>
+    <vehicle id="middleright3st_528" type="typebus" route="middleright3" depart="758" color="blue"/>
+    <vehicle id="circle_529" type="typenormal" route="circle" depart="759" color="1,0,0"/>
+    <vehicle id="middleright3st_530" type="typebus" route="middleright3" depart="761" color="blue"/>
+    <vehicle id="outright_531" type="typenormal" route="outright" depart="765"/>
+    <vehicle id="middleright_532" type="typenormal" route="middleright" depart="768"/>
+    <vehicle id="outright_533" type="typenormal" route="outright" depart="772"/>
+    <vehicle id="circle_534" type="typenormal" route="circle" depart="772" color="1,0,0"/>
+    <vehicle id="outright_535" type="typenormal" route="outright" depart="775"/>
+    <vehicle id="outright_536" type="typenormal" route="outright" depart="776"/>
+    <vehicle id="middleright_537" type="typenormal" route="middleright" depart="776"/>
+    <vehicle id="middleright2st_538" type="typebus" route="middleright2" depart="777" color="blue"/>
+    <vehicle id="middleright3st_539" type="typebus" route="middleright3" depart="777" color="blue"/>
+    <vehicle id="middleright_540" type="typenormal" route="middleright" depart="778"/>
+    <vehicle id="middleright3st_541" type="typebus" route="middleright3" depart="779" color="blue"/>
+    <vehicle id="circle_542" type="typenormal" route="circle" depart="779" color="1,0,0"/>
+    <vehicle id="circle_543" type="typenormal" route="circle" depart="780" color="1,0,0"/>
+    <vehicle id="middleright_544" type="typenormal" route="middleright" depart="781"/>
+    <vehicle id="middleright_545" type="typenormal" route="middleright" depart="784"/>
+    <vehicle id="middleright3st_546" type="typebus" route="middleright3" depart="784" color="blue"/>
+    <vehicle id="middleright2st_547" type="typebus" route="middleright2" depart="787" color="blue"/>
+    <vehicle id="middleright2st_548" type="typebus" route="middleright2" depart="788" color="blue"/>
+    <vehicle id="middleright_549" type="typenormal" route="middleright" depart="789"/>
+    <vehicle id="circle_550" type="typenormal" route="circle" depart="790" color="1,0,0"/>
+    <vehicle id="middleright2st_551" type="typebus" route="middleright2" depart="791" color="blue"/>
+    <vehicle id="middleright_552" type="typenormal" route="middleright" depart="797"/>
+    <vehicle id="outright_553" type="typenormal" route="outright" depart="800"/>
+    <vehicle id="middleright_554" type="typenormal" route="middleright" depart="801"/>
+    <vehicle id="middleright3st_555" type="typebus" route="middleright3" depart="805" color="blue"/>
+    <vehicle id="circle_556" type="typenormal" route="circle" depart="806" color="1,0,0"/>
+    <vehicle id="middleright_557" type="typenormal" route="middleright" depart="807"/>
+    <vehicle id="circle_558" type="typenormal" route="circle" depart="811" color="1,0,0"/>
+    <vehicle id="circle_559" type="typenormal" route="circle" depart="813" color="1,0,0"/>
+    <vehicle id="outright_560" type="typenormal" route="outright" depart="816"/>
+    <vehicle id="middleright3st_561" type="typebus" route="middleright3" depart="816" color="blue"/>
+    <vehicle id="middleright2st_562" type="typebus" route="middleright2" depart="817" color="blue"/>
+    <vehicle id="middleright2st_563" type="typebus" route="middleright2" depart="818" color="blue"/>
+    <vehicle id="circle_564" type="typenormal" route="circle" depart="818" color="1,0,0"/>
+    <vehicle id="middleright_565" type="typenormal" route="middleright" depart="819"/>
+    <vehicle id="middleright_566" type="typenormal" route="middleright" depart="823"/>
+    <vehicle id="middleright_567" type="typenormal" route="middleright" depart="827"/>
+    <vehicle id="circle_568" type="typenormal" route="circle" depart="829" color="1,0,0"/>
+    <vehicle id="middleright_569" type="typenormal" route="middleright" depart="833"/>
+    <vehicle id="middleright2st_570" type="typebus" route="middleright2" depart="833" color="blue"/>
+    <vehicle id="middleright2st_571" type="typebus" route="middleright2" depart="834" color="blue"/>
+    <vehicle id="circle_572" type="typenormal" route="circle" depart="835" color="1,0,0"/>
+    <vehicle id="outright_573" type="typenormal" route="outright" depart="837"/>
+    <vehicle id="middleright_574" type="typenormal" route="middleright" depart="839"/>
+    <vehicle id="middleright_575" type="typenormal" route="middleright" depart="842"/>
+    <vehicle id="middleright2st_576" type="typebus" route="middleright2" depart="843" color="blue"/>
+    <vehicle id="circle_577" type="typenormal" route="circle" depart="844" color="1,0,0"/>
+    <vehicle id="middleright_578" type="typenormal" route="middleright" depart="848"/>
+    <vehicle id="outright_579" type="typenormal" route="outright" depart="849"/>
+    <vehicle id="outright_580" type="typenormal" route="outright" depart="850"/>
+    <vehicle id="middleright2st_581" type="typebus" route="middleright2" depart="850" color="blue"/>
+    <vehicle id="outright_582" type="typenormal" route="outright" depart="851"/>
+    <vehicle id="outright_583" type="typenormal" route="outright" depart="853"/>
+    <vehicle id="outright_584" type="typenormal" route="outright" depart="855"/>
+    <vehicle id="middleright_585" type="typenormal" route="middleright" depart="858"/>
+    <vehicle id="circle_586" type="typenormal" route="circle" depart="859" color="1,0,0"/>
+    <vehicle id="outright_587" type="typenormal" route="outright" depart="860"/>
+    <vehicle id="middleright3st_588" type="typebus" route="middleright3" depart="860" color="blue"/>
+    <vehicle id="middleright_589" type="typenormal" route="middleright" depart="864"/>
+    <vehicle id="circle_590" type="typenormal" route="circle" depart="864" color="1,0,0"/>
+    <vehicle id="middleright_591" type="typenormal" route="middleright" depart="867"/>
+    <vehicle id="circle_592" type="typenormal" route="circle" depart="868" color="1,0,0"/>
+    <vehicle id="middleright_593" type="typenormal" route="middleright" depart="870"/>
+    <vehicle id="middleright3st_594" type="typebus" route="middleright3" depart="870" color="blue"/>
+    <vehicle id="middleright2st_595" type="typebus" route="middleright2" depart="871" color="blue"/>
+    <vehicle id="middleright2st_596" type="typebus" route="middleright2" depart="873" color="blue"/>
+    <vehicle id="circle_597" type="typenormal" route="circle" depart="873" color="1,0,0"/>
+    <vehicle id="circle_598" type="typenormal" route="circle" depart="875" color="1,0,0"/>
+    <vehicle id="middleright_599" type="typenormal" route="middleright" depart="877"/>
+    <vehicle id="circle_600" type="typenormal" route="circle" depart="877" color="1,0,0"/>
+    <vehicle id="outright_601" type="typenormal" route="outright" depart="878"/>
+    <vehicle id="middleright_602" type="typenormal" route="middleright" depart="880"/>
+    <vehicle id="middleright_603" type="typenormal" route="middleright" depart="883"/>
+    <vehicle id="outright_604" type="typenormal" route="outright" depart="886"/>
+    <vehicle id="middleright_605" type="typenormal" route="middleright" depart="888"/>
+    <vehicle id="circle_606" type="typenormal" route="circle" depart="888" color="1,0,0"/>
+    <vehicle id="middleright_607" type="typenormal" route="middleright" depart="892"/>
+    <vehicle id="middleright3st_608" type="typebus" route="middleright3" depart="893" color="blue"/>
+    <vehicle id="outright_609" type="typenormal" route="outright" depart="897"/>
+    <vehicle id="outright_610" type="typenormal" route="outright" depart="898"/>
+    <vehicle id="middleright_611" type="typenormal" route="middleright" depart="898"/>
+    <vehicle id="middleright3st_612" type="typebus" route="middleright3" depart="899" color="blue"/>
+    <vehicle id="circle_613" type="typenormal" route="circle" depart="900" color="1,0,0"/>
+    <vehicle id="outright_614" type="typenormal" route="outright" depart="901"/>
+    <vehicle id="circle_615" type="typenormal" route="circle" depart="903" color="1,0,0"/>
+    <vehicle id="middleright_616" type="typenormal" route="middleright" depart="904"/>
+    <vehicle id="middleright2st_617" type="typebus" route="middleright2" depart="904" color="blue"/>
+    <vehicle id="outright_618" type="typenormal" route="outright" depart="905"/>
+    <vehicle id="middleright2st_619" type="typebus" route="middleright2" depart="906" color="blue"/>
+    <vehicle id="middleright_620" type="typenormal" route="middleright" depart="909"/>
+    <vehicle id="outright_621" type="typenormal" route="outright" depart="910"/>
+    <vehicle id="outright_622" type="typenormal" route="outright" depart="913"/>
+    <vehicle id="middleright_623" type="typenormal" route="middleright" depart="916"/>
+    <vehicle id="middleright2st_624" type="typebus" route="middleright2" depart="917" color="blue"/>
+    <vehicle id="middleright3st_625" type="typebus" route="middleright3" depart="917" color="blue"/>
+    <vehicle id="middleright_626" type="typenormal" route="middleright" depart="918"/>
+    <vehicle id="circle_627" type="typenormal" route="circle" depart="918" color="1,0,0"/>
+    <vehicle id="middleright3st_628" type="typebus" route="middleright3" depart="919" color="blue"/>
+    <vehicle id="middleright_629" type="typenormal" route="middleright" depart="921"/>
+    <vehicle id="middleright_630" type="typenormal" route="middleright" depart="922"/>
+    <vehicle id="middleright3st_631" type="typebus" route="middleright3" depart="922" color="blue"/>
+    <vehicle id="outright_632" type="typenormal" route="outright" depart="923"/>
+    <vehicle id="middleright_633" type="typenormal" route="middleright" depart="923"/>
+    <vehicle id="middleright2st_634" type="typebus" route="middleright2" depart="923" color="blue"/>
+    <vehicle id="middleright_635" type="typenormal" route="middleright" depart="924"/>
+    <vehicle id="middleright2st_636" type="typebus" route="middleright2" depart="924" color="blue"/>
+    <vehicle id="outright_637" type="typenormal" route="outright" depart="927"/>
+    <vehicle id="middleright_638" type="typenormal" route="middleright" depart="930"/>
+    <vehicle id="circle_639" type="typenormal" route="circle" depart="930" color="1,0,0"/>
+    <vehicle id="outright_640" type="typenormal" route="outright" depart="931"/>
+    <vehicle id="middleright3st_641" type="typebus" route="middleright3" depart="934" color="blue"/>
+    <vehicle id="circle_642" type="typenormal" route="circle" depart="934" color="1,0,0"/>
+    <vehicle id="outright_643" type="typenormal" route="outright" depart="935"/>
+    <vehicle id="middleright2st_644" type="typebus" route="middleright2" depart="936" color="blue"/>
+    <vehicle id="middleright_645" type="typenormal" route="middleright" depart="937"/>
+    <vehicle id="middleright3st_646" type="typebus" route="middleright3" depart="937" color="blue"/>
+    <vehicle id="middleright_647" type="typenormal" route="middleright" depart="938"/>
+    <vehicle id="outright_648" type="typenormal" route="outright" depart="939"/>
+    <vehicle id="middleright_649" type="typenormal" route="middleright" depart="941"/>
+    <vehicle id="middleright2st_650" type="typebus" route="middleright2" depart="941" color="blue"/>
+    <vehicle id="outright_651" type="typenormal" route="outright" depart="943"/>
+    <vehicle id="middleright_652" type="typenormal" route="middleright" depart="943"/>
+    <vehicle id="middleright_653" type="typenormal" route="middleright" depart="945"/>
+    <vehicle id="middleright_654" type="typenormal" route="middleright" depart="946"/>
+    <vehicle id="middleright_655" type="typenormal" route="middleright" depart="947"/>
+    <vehicle id="middleright2st_656" type="typebus" route="middleright2" depart="947" color="blue"/>
+    <vehicle id="middleright_657" type="typenormal" route="middleright" depart="953"/>
+    <vehicle id="outright_658" type="typenormal" route="outright" depart="957"/>
+    <vehicle id="middleright_659" type="typenormal" route="middleright" depart="957"/>
+    <vehicle id="circle_660" type="typenormal" route="circle" depart="957" color="1,0,0"/>
+    <vehicle id="middleright_661" type="typenormal" route="middleright" depart="960"/>
+    <vehicle id="middleright2st_662" type="typebus" route="middleright2" depart="961" color="blue"/>
+    <vehicle id="middleright_663" type="typenormal" route="middleright" depart="963"/>
+    <vehicle id="middleright_664" type="typenormal" route="middleright" depart="964"/>
+    <vehicle id="circle_665" type="typenormal" route="circle" depart="964" color="1,0,0"/>
+    <vehicle id="circle_666" type="typenormal" route="circle" depart="966" color="1,0,0"/>
+    <vehicle id="middleright_667" type="typenormal" route="middleright" depart="967"/>
+    <vehicle id="middleright_668" type="typenormal" route="middleright" depart="968"/>
+    <vehicle id="outright_669" type="typenormal" route="outright" depart="969"/>
+    <vehicle id="middleright_670" type="typenormal" route="middleright" depart="971"/>
+    <vehicle id="outright_671" type="typenormal" route="outright" depart="972"/>
+    <vehicle id="middleright2st_672" type="typebus" route="middleright2" depart="974" color="blue"/>
+    <vehicle id="circle_673" type="typenormal" route="circle" depart="974" color="1,0,0"/>
+    <vehicle id="middleright_674" type="typenormal" route="middleright" depart="975"/>
+    <vehicle id="outright_675" type="typenormal" route="outright" depart="976"/>
+    <vehicle id="middleright2st_676" type="typebus" route="middleright2" depart="976" color="blue"/>
+    <vehicle id="outright_677" type="typenormal" route="outright" depart="977"/>
+    <vehicle id="middleright2st_678" type="typebus" route="middleright2" depart="977" color="blue"/>
+    <vehicle id="middleright_679" type="typenormal" route="middleright" depart="983"/>
+    <vehicle id="middleright3st_680" type="typebus" route="middleright3" depart="983" color="blue"/>
+    <vehicle id="outright_681" type="typenormal" route="outright" depart="984"/>
+    <vehicle id="middleright2st_682" type="typebus" route="middleright2" depart="985" color="blue"/>
+    <vehicle id="circle_683" type="typenormal" route="circle" depart="986" color="1,0,0"/>
+    <vehicle id="middleright_684" type="typenormal" route="middleright" depart="988"/>
+    <vehicle id="middleright_685" type="typenormal" route="middleright" depart="989"/>
+    <vehicle id="middleright_686" type="typenormal" route="middleright" depart="990"/>
+    <vehicle id="outright_687" type="typenormal" route="outright" depart="991"/>
+    <vehicle id="middleright2st_688" type="typebus" route="middleright2" depart="991" color="blue"/>
+    <vehicle id="outright_689" type="typenormal" route="outright" depart="994"/>
+    <vehicle id="middleright_690" type="typenormal" route="middleright" depart="995"/>
+    <vehicle id="middleright_691" type="typenormal" route="middleright" depart="996"/>
+    <vehicle id="circle_692" type="typenormal" route="circle" depart="999" color="1,0,0"/>
+</routes>

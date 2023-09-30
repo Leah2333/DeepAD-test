@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2020-08-15 15:49:07.336480 by ptlines2flows.py v1_6_0+0003-190709904e
+  options: -n osm.net.xml -s new_metro_stops.add.xml -l metroLines.xml -o metro.rou.xml -p 300 -b 0 -e 86400 <doubleminus>use-osm-routes
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="subway_1:1" edges="159864075 255863296" >
+        <stop busStop="881785732" duration="30.00" until="31.0"/> <!-- xinjiekou -->
+        <stop busStop="1038064762" duration="30.00" until="116.0"/> <!-- zhujianglu -->
+        <stop busStop="5451782627" duration="30.00" until="193.0"/> <!-- gulou -->
+    </route>
+    <route id="subway_4:1" edges="gneE6905 -466139720" >
+        <stop busStop="-4610107650" duration="30.00" until="118.0"/> <!-- yunnanlu -->
+        <stop busStop="-1541912264" duration="30.00" until="198.0"/> <!-- gulou -->
+    </route>
+    <route id="subway_4:0" edges="466139720 gneE6902" >
+        <stop busStop="1541912264" duration="30.00" until="43.0"/> <!-- gulou -->
+        <stop busStop="4610107650" duration="30.00" until="124.0"/> <!-- yunnanlu -->
+    </route>
+    <route id="subway_2:0" edges="158598217 779232512 432528041" >
+        <stop busStop="1036717601" duration="30.00" until="54.0"/> <!-- hanzhongmen -->
+        <stop busStop="1036717600" duration="30.00" until="129.0"/> <!-- shanghailu -->
+        <stop busStop="2615764104" duration="30.00" until="205.0"/> <!-- xinjiekou -->
+    </route>
+    <route id="subway_1:0" edges="-255863296 -159864075" >
+        <stop busStop="-5451782627" duration="30.00" until="31.0"/> <!-- gulou -->
+        <stop busStop="-1038064762" duration="30.00" until="112.0"/> <!-- zhujianglu -->
+        <stop busStop="-881785732" duration="30.00" until="206.0"/> <!-- xinjiekou -->
+    </route>
+    <route id="subway_2:1" edges="-432528041 -779232512 -158598217" >
+        <stop busStop="-2615764104" duration="30.00" until="31.0"/> <!-- xinjiekou -->
+        <stop busStop="-1036717600" duration="30.00" until="173.0"/> <!-- shanghailu -->
+        <stop busStop="-1036717601" duration="30.00" until="251.0"/> <!-- hanzhongmen -->
+    </route>
+    <flow id="subway_1:1" type="subway" route="subway_1:1" begin="0.0" end="86400.0" period="300" line="1:1" >
+        <param key="name" value="Line1_zhongguoyaokedaxue_maigaoqiao"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_4:1" type="subway" route="subway_4:1" begin="0.0" end="86400.0" period="300" line="4:1" >
+        <param key="name" value="Line4_east"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_4:0" type="subway" route="subway_4:0" begin="0.0" end="86400.0" period="300" line="4:0" >
+        <param key="name" value="Line4_west"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_2:0" type="subway" route="subway_2:0" begin="0.0" end="86400.0" period="300" line="2:0" >
+        <param key="name" value="Line2_youfangqiao_jingtianlu"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_1:0" type="subway" route="subway_1:0" begin="0.0" end="86400.0" period="300" line="1:0" >
+        <param key="name" value="Line1_maigaoqiao_zhongguoyaokedaxue"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+    <flow id="subway_2:1" type="subway" route="subway_2:1" begin="0.0" end="86400.0" period="300" line="2:1" >
+        <param key="name" value="Line2_jingtianlu_youfangqiao"/>
+        <param key="completeness" value="1.00"/>
+    </flow>
+</routes>

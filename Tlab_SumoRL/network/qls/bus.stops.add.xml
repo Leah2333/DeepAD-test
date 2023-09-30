@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 07/17/20 20:51:12 by Eclipse SUMO netedit Version 1.6.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\lenovo\Desktop\7-16%20zone3%20edit\edition2\qls.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\lenovo\Desktop\7-16%20zone3%20edit\edition2\qls.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\lenovo\Desktop\7-16%20zone3%20edit\edition2\bus_zone2.5.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <busStop id="busStop_-166261566#4_0_20" lane="-166261566#4_2" startPos="91.31" endPos="101.31" name="naokeyiyuan"/>
+    <busStop id="busStop_-166261566#6_0_22" lane="-166261566#6_2" startPos="103.04" endPos="113.04" name="naokeyiyuan"/>
+    <busStop id="busStop_-423512775#0.42.58_0_0" lane="-423512775#0.42.58_2" startPos="88.76" endPos="98.76" name="caoqiaomen"/>
+    <busStop id="busStop_-423512775#0.42.58_0_2" lane="-423512775#0.42.58_2" startPos="461.84" endPos="471.84" name="jiangsushengwei"/>
+    <busStop id="busStop_-61862487#1_0_24" lane="-61862487#1_2" startPos="75.71" endPos="85.71" name="lasalu"/>
+    <busStop id="busStop_-61862488#0_0_25" lane="-61862488#0_2" startPos="11.98" endPos="21.98" name="pailouxiang"/>
+    <busStop id="busStop_-61862589#1.59_0_7" lane="-61862589#1.59_2" startPos="306.86" endPos="316.86" name="hujuguanbei"/>
+    <busStop id="busStop_-61862589#1.59_0_9" lane="-61862589#1.59_2" startPos="516.86" endPos="526.86" name="hujuguannan"/>
+    <busStop id="busStop_-61970176#3_0_18" lane="-61970176#3_2" startPos="402.29" endPos="412.29" name="nanyinyangying" friendlyPos="1"/>
+    <busStop id="busStop_-61970176#4_0_15" lane="-61970176#4_2" startPos="174.53" endPos="184.53" name="shanyinlu"/>
+    <busStop id="busStop_-61970178#0_0_5" lane="-61970178#0_2" startPos="81.47" endPos="91.47" name="xikanglu"/>
+    <busStop id="busStop_-74658359#5.7_0_28" lane="-74658359#5.7_2" startPos="139.36" endPos="149.36" name="hanzhongluhanzhongmen"/>
+    <busStop id="busStop_166261566#4_0_19" lane="166261566#4_2" startPos="109.35" endPos="119.35" name="naokeyiyuan"/>
+    <busStop id="busStop_166261566#6_0_21" lane="166261566#6_2" startPos="139.38" endPos="149.38" name="naokeyiyuan"/>
+    <!--<busStop id="busStop_256397629.59_0_29" lane="256397629.59_0" startPos="115.67" endPos="125.67" name="hujuluhanzhongmen"/> this is important actually-->
+    <busStop id="busStop_256397630.108.571_0_30" lane="256397630.108.571_2" startPos="99.63" endPos="109.63" name="hujuluhanzhongmen"/>
+    <busStop id="busStop_256397630.108_0_31" lane="256397630.108_2" startPos="159.23" endPos="169.23" name="hujuluqingliangshan"/>
+    <busStop id="busStop_383945571_0_13" lane="383945571_2" startPos="461.01" endPos="471.01" name="guofangyuan"/>
+    <busStop id="busStop_383946293_0_12" lane="383946293_2" startPos="123.35" endPos="133.35" name="guofangyuan"/>
+    <busStop id="busStop_383946297_0_14" lane="383946297_2" startPos="105.74" endPos="115.74" name="hujulucaochangmen"/>
+    <busStop id="busStop_422925228.23_0_11" lane="422925228.23_2" startPos="120.89" endPos="130.89" name="qingliangshangongyuan"/>
+    <busStop id="busStop_423512775#0.171_0_1" lane="423512775#0.171_2" startPos="380.44" endPos="390.44" name="caoqiaomen"/>
+    <busStop id="busStop_423512775#0.171_0_3" lane="423512775#0.171_2" startPos="14.57" endPos="24.57" name="jiangsushengwei"/>
+    <busStop id="busStop_61862487#1_0_23" lane="61862487#1_2" startPos="291.03" endPos="301.03" name="lasalu"/>
+    <!--<busStop id="busStop_61862488#0_0_26" lane="61862488#0_0" startPos="242.73" endPos="252.73" name="pailouxiang"/>-->
+    <busStop id="busStop_61862589#1.192_0_6" lane="61862589#1.192_2" startPos="197.43" endPos="207.43" name="hujuguanbei"/>
+    <busStop id="busStop_61862589#1.192_0_8" lane="61862589#1.192_2" startPos="67.54" endPos="77.54" name="hujuguannan"/>
+    <busStop id="busStop_61970176#2_0_17" lane="61970176#2_2" startPos="99.35" endPos="109.35" name="nanyimyangying" friendlyPos="1"/>
+    <busStop id="busStop_61970176#3_0_16" lane="61970176#3_2" startPos="280.74" endPos="290.74" name="shanyinlu"/>
+    <busStop id="busStop_61970178#0_0_4" lane="61970178#0_2" startPos="89.04" endPos="99.04" name="xikanglu"/>
+    <busStop id="busStop_74658359#5_0_27" lane="74658359#5_2" startPos="36.19" endPos="46.19"/>
+    <busStop id="busStop_779252392_0_10" lane="779252392_2" startPos="49.07" endPos="59.07" name="qiingliangshangongyuan"/>
+
+    <busStop id="busStop_--61862487#1_0_15" lane="-61862487#1_2" startPos="263.99" endPos="273.99" name="lasalu_north"/>
+    <busStop id="busStop_-146496699#1_0_39" lane="-146496699#1_2" startPos="51.31" endPos="61.31" name="xinjiekouxi_south"/>
+    <busStop id="busStop_-161318989#10_0_41" lane="-161318989#10_2" startPos="132.25" endPos="142.25" name="zhongshanlu_zhujianglubei"/>
+    <busStop id="busStop_-161318989#4_1_37" lane="-161318989#4_3" startPos="14.60" endPos="24.60" name="zhongshanlu_zhujianglunan"/>
+    <busStop id="busStop_-166261566#3_0_18" lane="-166261566#3_2" startPos="208.15" endPos="218.15" name="suijiacang_south"/>
+    <busStop id="busStop_-166261566#4_0_16" lane="-166261566#4_2" startPos="107.57" endPos="117.57" name="naokeyiyuan_east"/>
+    <busStop id="busStop_-61858449#3_0_22" lane="-61858449#3_2" startPos="179.78" endPos="189.78"/>
+    <busStop id="busStop_-61862480#1_0_11" lane="-61862480#1_2" startPos="188.27" endPos="198.27" name="dajianyinxiang_west"/>
+    <busStop id="busStop_-61862480#1_0_25" lane="-61862480#1_2" startPos="79.12" endPos="89.12" name="wutaishan_west"/>
+    <busStop id="busStop_-61862487#1_0_14" lane="-61862487#1_2" startPos="70.26" endPos="80.26" name="lasalu_south"/>
+    <busStop id="busStop_-61862488#0_0_24" lane="-61862488#0_2" startPos="91.58" endPos="101.58" name="pailouxiang_east"/>
+    <busStop id="busStop_-61970176#2_0_9" lane="-61970176#2_2" startPos="45.65" endPos="55.65" name="nanyinyangying_south"/>
+    <busStop id="busStop_-61970176#3_0_29" lane="-61970176#3_0" startPos="110.61" endPos="120.61" name="shanyinlu_south"/>
+    <busStop id="busStop_-74658359#0_0_28" lane="-74658359#0_2" startPos="222.90" endPos="232.90" name="hanzhonglumochoulu_south"/>
+    <busStop id="busStop_0" lane="422921344#2_2" startPos="27.81" endPos="37.81" name="ninghailu_west"/>
+    <busStop id="busStop_1" lane="422921355#0_2" startPos="124.49" endPos="134.49" name="yuquanlu_north"/>
+    <busStop id="busStop_146496699#1_0_40" lane="146496699#1_2" startPos="8.88" endPos="18.88" name="xinjiekouxi_north"/>
+    <busStop id="busStop_161318989#3_0_38" lane="161318989#3_2" startPos="27.55" endPos="37.55" name="zhongshanlu_zhujianglunan_east"/>
+    <busStop id="busStop_166261566#1_0_20" lane="166261566#1_2" startPos="105.30" endPos="115.30" name="suijiangcang_east"/>
+    <busStop id="busStop_166261566#3_0_19" lane="166261566#3_2" startPos="182.66" endPos="192.66" name="suijiacang_north"/>
+    <busStop id="busStop_166261566#4_0_17" lane="166261566#4_2" startPos="110.76" endPos="120.76" name="naokeyiyuan_west "/>
+    <busStop id="busStop_190247403#2_0_35" lane="190247403#2_2" startPos="12.14" endPos="22.14" name="guangzhoulu_zhongshanlu"/>
+    <busStop id="busStop_190247403#6_0_36" lane="190247403#6_2" startPos="35.26" endPos="45.26" name="ertongyiyuan"/>
+    <busStop id="busStop_2" lane="-422921344#2_2" startPos="17.37" endPos="27.37" name="ninghailu_east"/>
+    <busStop id="busStop_3" lane="-422921365#0_2" startPos="92.49" endPos="102.49" name="beijingxilu_yunnanlu"/>
+    <busStop id="busStop_309231778#1_0_33" lane="309231778#1_2" startPos="115.13" endPos="125.13" name="gulougongjiaozongzhan_north"/>
+    <!--<busStop id="busStop_309231778#1_4_34" lane="309231778#1_4" startPos="94.11" endPos="104.11" name="gulougongjiaozongzhan_east" lines="26 67"/>-->
+    <busStop id="busStop_309231778#3_0_32" lane="309231778#3_2" startPos="2.00" endPos="10.00" name="gulougongjiaozongzhan"/>
+    <busStop id="busStop_309231778#4_0_31" lane="309231778#4_2" startPos="12.37" endPos="22.37" name="gulougongyuan"/>
+    <busStop id="busStop_4" lane="375025776#1_2" startPos="156.15" endPos="166.15"/>
+    <busStop id="busStop_5" lane="-375025776#1_2" startPos="183.24" endPos="193.24"/>
+    <busStop id="busStop_61858449#1_0_21" lane="61858449#1_2" startPos="217.17" endPos="247.17" friendlyPos="1"/>
+    <busStop id="busStop_61862480#1_1_27" lane="61862480#1_2" startPos="17.33" endPos="27.33" name="dajianyinxiang"/>
+    <busStop id="busStop_61862480#1_2_26" lane="61862480#1_3" startPos="108.74" endPos="118.74" name="wutaishan_east"/>
+    <!--<busStop id="busStop_61862486#1_0_13" lane="61862486#1_0" startPos="156.15" endPos="166.15"/>-->
+    <busStop id="busStop_61862488#0_0_23" lane="61862488#0_2" startPos="206.37" endPos="216.37" name="pailouxiang_west"/>
+    <busStop id="busStop_61970176#2_0_8" lane="61970176#2_2" startPos="103.17" endPos="113.17" name="nanyinyangying_north" friendlyPos="1"/>
+    <busStop id="busStop_61970176#4_0_7" lane="61970176#4_2" startPos="25.93" endPos="35.93" name="shanyinlu_north"/>
+    <busStop id="busStop_74658359#0_0_10" lane="74658359#0_2" startPos="92.00" endPos="142.00" name="hanzhonglumochoulu_north" friendlyPos="1"/>
+    <busStop id="busStop_779254398#3_0_30" lane="779254398#3_2" startPos="106.31" endPos="116.31" name="beijingxilu_yunnanlu"/>
+    <busStop id="busStop_gneE60_0_0" lane="gneE60_2" startPos="137.94" endPos="147.94" name="yuquanlu_south"/>
+    <!--<busStop id="busStop_gneE68_0_12" lane="gneE68_0" startPos="72.89" endPos="82.89" name="yongqingxiang_south" lines="302 3inner 3outer 43 60 68"/>-->
+
+</additional>
+
+

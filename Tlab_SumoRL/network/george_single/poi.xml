@@ -1,0 +1,89 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+
+	<poi id="t0" color="40,160,0" x="53.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1" color="40,160,0" x="93.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t2" color="40,160,0" x="133.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t3" color="40,160,0" x="173.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	
+	<poi id="-t0" color="40,160,0" x="53.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1" color="40,160,0" x="93.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t2" color="40,160,0" x="133.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t3" color="40,160,0" x="173.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	
+	<poi id="t113" color="40,160,0" x="173.12" y="247.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t114" color="40,160,0" x="173.12" y="287.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t115" color="40,160,0" x="173.12" y="327.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t116" color="40,160,0" x="173.12" y="367.20" width="15" height="15" imgFile="tree.png" />
+	
+	
+	<poi id="t213" color="40,160,0" x="213.12" y="247.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t214" color="40,160,0" x="213.12" y="287.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t215" color="40,160,0" x="213.12" y="327.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t216" color="40,160,0" x="213.12" y="367.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t4" color="40,160,0" x="213.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t5" color="40,160,0" x="253.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t6" color="1,1,1" x="293.12" y="227.20" width="40" height="40" imgFile="40.png" />
+	<poi id="t7" color="40,160,0" x="328.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t8" color="40,160,0" x="363.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+
+	<poi id="-t4" color="40,160,0" x="213.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t5" color="40,160,0" x="253.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t6" color="40,160,0" x="293.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t7" color="40,160,0" x="333.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t8" color="40,160,0" x="373.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+
+
+	<poi id="t1111" color="40,160,0" x="13.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1112" color="40,160,0" x="-33.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1113" color="40,160,0" x="-73.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1114" color="40,160,0" x="-113.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1115" color="40,160,0" x="-153.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1116" color="40,160,0" x="-193.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1117" color="40,160,0" x="-233.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1118" color="40,160,0" x="-273.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1119" color="40,160,0" x="-313.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t11110" color="40,160,0" x="-353.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t11111" color="40,160,0" x="-393.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t11112" color="40,160,0" x="-433.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+
+
+	<poi id="-t1111" color="40,160,0" x="13.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1112" color="40,160,0" x="-33.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1113" color="40,160,0" x="-73.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1114" color="40,160,0" x="-113.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1115" color="40,160,0" x="-153.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1116" color="40,160,0" x="-193.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1117" color="40,160,0" x="-233.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1118" color="40,160,0" x="-273.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1119" color="40,160,0" x="-313.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t11110" color="40,160,0" x="-353.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t11111" color="40,160,0" x="-393.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t11112" color="40,160,0" x="-433.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+
+	<poi id="t1111111" color="40,160,0" x="-473.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111112" color="40,160,0" x="-513.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111113" color="40,160,0" x="-553.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111114" color="40,160,0" x="-593.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111115" color="40,160,0" x="-633.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111116" color="40,160,0" x="-673.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111117" color="40,160,0" x="-713.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111118" color="40,160,0" x="-753.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t1111119" color="40,160,0" x="-793.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="t11111110" color="40,160,0" x="-833.12" y="217.20" width="15" height="15" imgFile="tree.png" />
+
+	
+	
+	<poi id="-t1111111" color="40,160,0" x="-473.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111112" color="40,160,0" x="-513.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111113" color="40,160,0" x="-553.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111114" color="40,160,0" x="-593.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111115" color="40,160,0" x="-633.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111116" color="40,160,0" x="-673.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111117" color="40,160,0" x="-713.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111118" color="40,160,0" x="-753.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t1111119" color="40,160,0" x="-793.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+	<poi id="-t11111110" color="40,160,0" x="-833.12" y="173.20" width="15" height="15" imgFile="tree.png" />
+
+
+</additional>

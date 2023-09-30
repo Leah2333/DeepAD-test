@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="test2.rou.xml"/> 
+	<additional-files value="additional.xml"/>
+   </input>
+       <processing>
+        <scale value="0.4"/>
+    </processing>
+</configuration>
