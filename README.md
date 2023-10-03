@@ -6,7 +6,7 @@
 
 This repository contains the implementation of a deep-learning model for anomaly detection.
 
-## micro_load.py: Loading datasets and their respective labels.
+### micro_load.py: Loading datasets and their respective labels.
 
    - Purpose: This script appears to be responsible for loading data. It contains functions such as `load_data` and `load_label`, which likely handle the loading of dataset and labels respectively.
    - Key Functions:
