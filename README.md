@@ -17,4 +17,12 @@ This repository contains the implementation of a deep-learning model for anomaly
 - `output`: Contains the output results from the model.
 - `utils`: Utility scripts and functions to assist in various tasks.
 
-To set up and run the project, refer to the main `README.md` in the root directory.
+# Data Directory
+
+This directory contains the datasets required for training and testing the deep learning model.
+
+## Files:
+- Datasets in `.npy` format: These are NumPy arrays storing the data samples.
+- Label files in `.npy` format: Corresponding labels for the datasets.
+
+Ensure that the data is correctly placed in this directory before running the training script.
