@@ -25,9 +25,7 @@ This repository contains the implementation of a deep-learning model for anomaly
 **Contains the training and testing protocol for the model.**
 
      - `train`: Handles the training process of a model.
-     
      - `test`: Tests the trained model.
-     
      - `main`: The main function that orchestrates the training and testing processes.
 
 These scripts form the foundation of a deep learning project, with functionalities for data loading and model training. 
