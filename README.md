@@ -6,6 +6,8 @@
 
 This repository contains the implementation of a deep-learning model for anomaly detection.
 
+## /DeepAD-test Directory: 
+
 ### micro_load.py: 
 
 **Loading datasets and their respective labels.**
@@ -29,3 +31,13 @@ This repository contains the implementation of a deep-learning model for anomaly
      - `main`: The main function that orchestrates the training and testing processes.
 
 These scripts form the foundation of a deep learning project, with functionalities for data loading and model training. 
+
+## List of Directories: 
+- '/.vscode'
+- 'Tlab_SumoRL'
+- 'checkpoints'
+- 'draw'
+- 'log'
+- 'output'
+  
+Further information on each directory is provided in the 'README.md' file in each directory. 
