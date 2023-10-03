@@ -6,7 +6,7 @@
 
 This repository contains the implementation of a deep-learning model for anomaly detection.
 
-'## /DeepAD-test Directory/' :
+## */DeepAD-test/* :
 
 ### micro_load.py: 
 
